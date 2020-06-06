@@ -1,0 +1,1331 @@
+fileFormatVersion: 2
+guid: 28acd7a9fc540f948be9efb2e2260099
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8325883078873552466
+    second: 2dpixx_ccart_indoor_tiles_0
+  - first:
+      213: 2719225529082925453
+    second: 2dpixx_ccart_indoor_tiles_1
+  - first:
+      213: 747873863156034499
+    second: 2dpixx_ccart_indoor_tiles_2
+  - first:
+      213: 2331772524437990193
+    second: 2dpixx_ccart_indoor_tiles_3
+  - first:
+      213: -117391029931594984
+    second: 2dpixx_ccart_indoor_tiles_4
+  - first:
+      213: -8599049948344050633
+    second: 2dpixx_ccart_indoor_tiles_5
+  - first:
+      213: 6951439841274510875
+    second: 2dpixx_ccart_indoor_tiles_6
+  - first:
+      213: -1843749973511603533
+    second: 2dpixx_ccart_indoor_tiles_7
+  - first:
+      213: -5369688129588244909
+    second: 2dpixx_ccart_indoor_tiles_8
+  - first:
+      213: 5556312786802771005
+    second: 2dpixx_ccart_indoor_tiles_9
+  - first:
+      213: -7332815437602609069
+    second: 2dpixx_ccart_indoor_tiles_10
+  - first:
+      213: -3170417034130990783
+    second: 2dpixx_ccart_indoor_tiles_11
+  - first:
+      213: -2784985327712609599
+    second: 2dpixx_ccart_indoor_tiles_12
+  - first:
+      213: -2372211789769514930
+    second: 2dpixx_ccart_indoor_tiles_13
+  - first:
+      213: -678076421637663607
+    second: 2dpixx_ccart_indoor_tiles_14
+  - first:
+      213: 8532798430519206429
+    second: 2dpixx_ccart_indoor_tiles_15
+  - first:
+      213: -5256088648314701672
+    second: 2dpixx_ccart_indoor_tiles_16
+  - first:
+      213: -8179398112540023239
+    second: 2dpixx_ccart_indoor_tiles_17
+  - first:
+      213: 8450076451171788162
+    second: 2dpixx_ccart_indoor_tiles_18
+  - first:
+      213: 4532367571699087756
+    second: 2dpixx_ccart_indoor_tiles_19
+  - first:
+      213: -8153302150921716605
+    second: 2dpixx_ccart_indoor_tiles_20
+  - first:
+      213: 7248368734641345145
+    second: 2dpixx_ccart_indoor_tiles_21
+  - first:
+      213: 2820237586851878033
+    second: 2dpixx_ccart_indoor_tiles_22
+  - first:
+      213: -3987250084806780191
+    second: 2dpixx_ccart_indoor_tiles_23
+  - first:
+      213: 2849062163119768689
+    second: 2dpixx_ccart_indoor_tiles_24
+  - first:
+      213: 3291144070388947523
+    second: 2dpixx_ccart_indoor_tiles_25
+  - first:
+      213: -5367543200899903650
+    second: 2dpixx_ccart_indoor_tiles_26
+  - first:
+      213: 5243435177113534462
+    second: 2dpixx_ccart_indoor_tiles_27
+  - first:
+      213: 6044298204420313245
+    second: 2dpixx_ccart_indoor_tiles_28
+  - first:
+      213: 6396760744112144016
+    second: 2dpixx_ccart_indoor_tiles_29
+  - first:
+      213: -2835426143929141223
+    second: 2dpixx_ccart_indoor_tiles_30
+  - first:
+      213: 3759616394619876474
+    second: 2dpixx_ccart_indoor_tiles_31
+  - first:
+      213: -5666168185105650524
+    second: 2dpixx_ccart_indoor_tiles_32
+  - first:
+      213: 5923258885387646411
+    second: 2dpixx_ccart_indoor_tiles_33
+  - first:
+      213: 7723491352065931411
+    second: 2dpixx_ccart_indoor_tiles_34
+  - first:
+      213: -3428868140083023320
+    second: 2dpixx_ccart_indoor_tiles_35
+  - first:
+      213: -7450065885005798214
+    second: 2dpixx_ccart_indoor_tiles_36
+  - first:
+      213: 385984900967128889
+    second: 2dpixx_ccart_indoor_tiles_37
+  - first:
+      213: 2835396131462492706
+    second: 2dpixx_ccart_indoor_tiles_38
+  - first:
+      213: -3215795689800427238
+    second: 2dpixx_ccart_indoor_tiles_39
+  - first:
+      213: -733828292973642252
+    second: 2dpixx_ccart_indoor_tiles_40
+  - first:
+      213: -4893368997890249986
+    second: 2dpixx_ccart_indoor_tiles_41
+  - first:
+      213: -83669801851089028
+    second: 2dpixx_ccart_indoor_tiles_42
+  - first:
+      213: 5760377551020709287
+    second: 2dpixx_ccart_indoor_tiles_43
+  - first:
+      213: 6562460140528437146
+    second: 2dpixx_ccart_indoor_tiles_44
+  - first:
+      213: 4849888356426283240
+    second: 2dpixx_ccart_indoor_tiles_45
+  - first:
+      213: 4455610723932972408
+    second: 2dpixx_ccart_indoor_tiles_46
+  - first:
+      213: -4635828254533172758
+    second: 2dpixx_ccart_indoor_tiles_47
+  - first:
+      213: -6916974777672701937
+    second: 2dpixx_ccart_indoor_tiles_48
+  - first:
+      213: 2200135275125741246
+    second: 2dpixx_ccart_indoor_tiles_49
+  - first:
+      213: 714656228081720918
+    second: 2dpixx_ccart_indoor_tiles_50
+  - first:
+      213: 5621048697408906743
+    second: 2dpixx_ccart_indoor_tiles_51
+  - first:
+      213: 902599217392074032
+    second: 2dpixx_ccart_indoor_tiles_52
+  - first:
+      213: 4459905390426254270
+    second: 2dpixx_ccart_indoor_tiles_53
+  - first:
+      213: -5306313873329805216
+    second: 2dpixx_ccart_indoor_tiles_54
+  - first:
+      213: -9210638835704249314
+    second: 2dpixx_ccart_indoor_tiles_55
+  - first:
+      213: -8611877193708822009
+    second: 2dpixx_ccart_indoor_tiles_56
+  - first:
+      213: 2737178920433615824
+    second: 2dpixx_ccart_indoor_tiles_57
+  - first:
+      213: 8638296699911048578
+    second: 2dpixx_ccart_indoor_tiles_58
+  - first:
+      213: -7350814244637616846
+    second: 2dpixx_ccart_indoor_tiles_59
+  - first:
+      213: -6977508160953702485
+    second: 2dpixx_ccart_indoor_tiles_60
+  - first:
+      213: -887062910551994611
+    second: 2dpixx_ccart_indoor_tiles_61
+  - first:
+      213: 4766093860267603260
+    second: 2dpixx_ccart_indoor_tiles_62
+  - first:
+      213: 851845580747011080
+    second: 2dpixx_ccart_indoor_tiles_63
+  - first:
+      213: 307111510523039607
+    second: 2dpixx_ccart_indoor_tiles_64
+  - first:
+      213: 2626099211685578781
+    second: 2dpixx_ccart_indoor_tiles_65
+  - first:
+      213: 8625786931416727058
+    second: 2dpixx_ccart_indoor_tiles_66
+  - first:
+      213: -6142709364499835689
+    second: 2dpixx_ccart_indoor_tiles_67
+  - first:
+      213: 3686733174795061484
+    second: 2dpixx_ccart_indoor_tiles_68
+  - first:
+      213: -8717719080288422041
+    second: 2dpixx_ccart_indoor_tiles_69
+  - first:
+      213: 6050631662451466702
+    second: 2dpixx_ccart_indoor_tiles_70
+  - first:
+      213: 4929117616705364499
+    second: 2dpixx_ccart_indoor_tiles_71
+  - first:
+      213: 5802750509815429628
+    second: 2dpixx_ccart_indoor_tiles_72
+  - first:
+      213: 6874243993771428609
+    second: 2dpixx_ccart_indoor_tiles_73
+  - first:
+      213: -4000746257683896127
+    second: 2dpixx_ccart_indoor_tiles_74
+  - first:
+      213: 1965118859380810218
+    second: 2dpixx_ccart_indoor_tiles_75
+  - first:
+      213: 6872466664367101987
+    second: 2dpixx_ccart_indoor_tiles_76
+  - first:
+      213: 628383245279988528
+    second: 2dpixx_ccart_indoor_tiles_77
+  - first:
+      213: 8172989541924105286
+    second: 2dpixx_ccart_indoor_tiles_78
+  - first:
+      213: -1259109066000468837
+    second: 2dpixx_ccart_indoor_tiles_79
+  - first:
+      213: 5030142708767684360
+    second: 2dpixx_ccart_indoor_tiles_80
+  - first:
+      213: 656369585325499410
+    second: 2dpixx_ccart_indoor_tiles_81
+  - first:
+      213: -2342413762624581255
+    second: 2dpixx_ccart_indoor_tiles_82
+  - first:
+      213: 8436341467228287692
+    second: 2dpixx_ccart_indoor_tiles_83
+  - first:
+      213: -146108702615802067
+    second: 2dpixx_ccart_indoor_tiles_84
+  - first:
+      213: 8480038094488071346
+    second: 2dpixx_ccart_indoor_tiles_85
+  - first:
+      213: 6319913037933211883
+    second: 2dpixx_ccart_indoor_tiles_86
+  - first:
+      213: 69960646298458525
+    second: 2dpixx_ccart_indoor_tiles_87
+  - first:
+      213: 403068175633759692
+    second: 2dpixx_ccart_indoor_tiles_88
+  - first:
+      213: 4693956775339369044
+    second: 2dpixx_ccart_indoor_tiles_89
+  - first:
+      213: 1154195208119806108
+    second: 2dpixx_ccart_indoor_tiles_90
+  - first:
+      213: -6062089967687219378
+    second: 2dpixx_ccart_indoor_tiles_91
+  - first:
+      213: -4006544241335950027
+    second: 2dpixx_ccart_indoor_tiles_92
+  - first:
+      213: -5049477889389858812
+    second: 2dpixx_ccart_indoor_tiles_93
+  - first:
+      213: -6143271859180517098
+    second: 2dpixx_ccart_indoor_tiles_94
+  - first:
+      213: -2946914212342041033
+    second: 2dpixx_ccart_indoor_tiles_95
+  - first:
+      213: -5796614636330312357
+    second: 2dpixx_ccart_indoor_tiles_96
+  - first:
+      213: -2084247551224263228
+    second: 2dpixx_ccart_indoor_tiles_97
+  - first:
+      213: 2404170478766730746
+    second: 2dpixx_ccart_indoor_tiles_98
+  - first:
+      213: -4773732989979687653
+    second: 2dpixx_ccart_indoor_tiles_99
+  - first:
+      213: 5042507850594769837
+    second: 2dpixx_ccart_indoor_tiles_100
+  - first:
+      213: -3664734599016562943
+    second: 2dpixx_ccart_indoor_tiles_101
+  - first:
+      213: -7691485384682597452
+    second: 2dpixx_ccart_indoor_tiles_102
+  - first:
+      213: -5700279016616599513
+    second: 2dpixx_ccart_indoor_tiles_103
+  - first:
+      213: -4023435896600124024
+    second: 2dpixx_ccart_indoor_tiles_104
+  - first:
+      213: -8795235663334394832
+    second: 2dpixx_ccart_indoor_tiles_105
+  - first:
+      213: -1083006298121622169
+    second: 2dpixx_ccart_indoor_tiles_106
+  - first:
+      213: 4162246703836730028
+    second: 2dpixx_ccart_indoor_tiles_107
+  - first:
+      213: 6666658149894813055
+    second: 2dpixx_ccart_indoor_tiles_108
+  - first:
+      213: -947438276522225796
+    second: 2dpixx_ccart_indoor_tiles_109
+  - first:
+      213: 376312721745290965
+    second: 2dpixx_ccart_indoor_tiles_110
+  - first:
+      213: -3433451080664998797
+    second: 2dpixx_ccart_indoor_tiles_111
+  - first:
+      213: 98032642723611263
+    second: 2dpixx_ccart_indoor_tiles_112
+  - first:
+      213: -1902857319297409149
+    second: 2dpixx_ccart_indoor_tiles_113
+  - first:
+      213: -3923892132853571870
+    second: 2dpixx_ccart_indoor_tiles_114
+  - first:
+      213: -5437737172087716313
+    second: 2dpixx_ccart_indoor_tiles_115
+  - first:
+      213: 9128525312749591185
+    second: 2dpixx_ccart_indoor_tiles_116
+  - first:
+      213: 5223732578818311133
+    second: 2dpixx_ccart_indoor_tiles_117
+  - first:
+      213: 808269323414388913
+    second: 2dpixx_ccart_indoor_tiles_118
+  - first:
+      213: -2959387870993034740
+    second: 2dpixx_ccart_indoor_tiles_119
+  - first:
+      213: 40368999135840206
+    second: 2dpixx_ccart_indoor_tiles_120
+  - first:
+      213: -3104854968389833158
+    second: 2dpixx_ccart_indoor_tiles_121
+  - first:
+      213: -7209363608917970241
+    second: 2dpixx_ccart_indoor_tiles_122
+  - first:
+      213: 892606141093868311
+    second: 2dpixx_ccart_indoor_tiles_123
+  - first:
+      213: 3247570242632616395
+    second: 2dpixx_ccart_indoor_tiles_124
+  - first:
+      213: -5129806810389103636
+    second: 2dpixx_ccart_indoor_tiles_125
+  - first:
+      213: -431139999891953989
+    second: 2dpixx_ccart_indoor_tiles_126
+  - first:
+      213: -6046515020089230275
+    second: 2dpixx_ccart_indoor_tiles_127
+  - first:
+      213: -3669509245947992911
+    second: 2dpixx_ccart_indoor_tiles_128
+  - first:
+      213: -5939914542069239526
+    second: 2dpixx_ccart_indoor_tiles_129
+  - first:
+      213: -4553686545545801152
+    second: 2dpixx_ccart_indoor_tiles_130
+  - first:
+      213: 1088495113505640934
+    second: 2dpixx_ccart_indoor_tiles_131
+  - first:
+      213: 2196814881677575903
+    second: 2dpixx_ccart_indoor_tiles_132
+  - first:
+      213: -108932130856322321
+    second: 2dpixx_ccart_indoor_tiles_133
+  - first:
+      213: -4228982592743959423
+    second: 2dpixx_ccart_indoor_tiles_134
+  - first:
+      213: -2292390836979638229
+    second: 2dpixx_ccart_indoor_tiles_135
+  - first:
+      213: 1010726845024320155
+    second: 2dpixx_ccart_indoor_tiles_136
+  - first:
+      213: 1446797276777403976
+    second: 2dpixx_ccart_indoor_tiles_137
+  - first:
+      213: 8612893265667755920
+    second: 2dpixx_ccart_indoor_tiles_138
+  - first:
+      213: 3874312691137246009
+    second: 2dpixx_ccart_indoor_tiles_139
+  - first:
+      213: 8981053381648614472
+    second: 2dpixx_ccart_indoor_tiles_140
+  - first:
+      213: 9091205232921216284
+    second: 2dpixx_ccart_indoor_tiles_141
+  - first:
+      213: 4875308816931293529
+    second: 2dpixx_ccart_indoor_tiles_142
+  - first:
+      213: -4470157021760146934
+    second: 2dpixx_ccart_indoor_tiles_143
+  - first:
+      213: -5287094213317927550
+    second: 2dpixx_ccart_indoor_tiles_144
+  - first:
+      213: 5477704989053907493
+    second: 2dpixx_ccart_indoor_tiles_145
+  - first:
+      213: 3263747108123734730
+    second: 2dpixx_ccart_indoor_tiles_146
+  - first:
+      213: -7496185791841865589
+    second: 2dpixx_ccart_indoor_tiles_147
+  - first:
+      213: 43877925183948156
+    second: 2dpixx_ccart_indoor_tiles_148
+  - first:
+      213: 3490625223947280874
+    second: 2dpixx_ccart_indoor_tiles_149
+  - first:
+      213: -8716965193601022542
+    second: 2dpixx_ccart_indoor_tiles_150
+  - first:
+      213: 5154521634332911835
+    second: 2dpixx_ccart_indoor_tiles_151
+  - first:
+      213: -987974791737976685
+    second: 2dpixx_ccart_indoor_tiles_152
+  - first:
+      213: -6670554765734861658
+    second: 2dpixx_ccart_indoor_tiles_153
+  - first:
+      213: 5508862867730524596
+    second: 2dpixx_ccart_indoor_tiles_154
+  - first:
+      213: 3903074637320692374
+    second: 2dpixx_ccart_indoor_tiles_155
+  - first:
+      213: -5895480897387825304
+    second: 2dpixx_ccart_indoor_tiles_156
+  - first:
+      213: -7121443105622517265
+    second: 2dpixx_ccart_indoor_tiles_157
+  - first:
+      213: -810196909564933350
+    second: 2dpixx_ccart_indoor_tiles_158
+  - first:
+      213: -5094130705920094351
+    second: 2dpixx_ccart_indoor_tiles_159
+  - first:
+      213: 4886219067823119246
+    second: 2dpixx_ccart_indoor_tiles_160
+  - first:
+      213: 5148634634614146176
+    second: 2dpixx_ccart_indoor_tiles_161
+  - first:
+      213: 8302138480927166996
+    second: 2dpixx_ccart_indoor_tiles_162
+  - first:
+      213: -29668027321074300
+    second: 2dpixx_ccart_indoor_tiles_163
+  - first:
+      213: 4202819135873153112
+    second: 2dpixx_ccart_indoor_tiles_164
+  - first:
+      213: -4835278656503812641
+    second: 2dpixx_ccart_indoor_tiles_165
+  - first:
+      213: 720935022795413622
+    second: 2dpixx_ccart_indoor_tiles_166
+  - first:
+      213: -6734156112775994178
+    second: 2dpixx_ccart_indoor_tiles_167
+  - first:
+      213: -7980279538789040195
+    second: 2dpixx_ccart_indoor_tiles_168
+  - first:
+      213: -2715789769407053189
+    second: 2dpixx_ccart_indoor_tiles_169
+  - first:
+      213: -7217762191308672129
+    second: 2dpixx_ccart_indoor_tiles_170
+  - first:
+      213: -5488554958333569676
+    second: 2dpixx_ccart_indoor_tiles_171
+  - first:
+      213: -2065012732738120417
+    second: 2dpixx_ccart_indoor_tiles_172
+  - first:
+      213: 329982306995642938
+    second: 2dpixx_ccart_indoor_tiles_173
+  - first:
+      213: -3828211177442536274
+    second: 2dpixx_ccart_indoor_tiles_174
+  - first:
+      213: 3440201358652770921
+    second: 2dpixx_ccart_indoor_tiles_175
+  - first:
+      213: 712845937016507225
+    second: 2dpixx_ccart_indoor_tiles_176
+  - first:
+      213: 8566670268195593930
+    second: 2dpixx_ccart_indoor_tiles_177
+  - first:
+      213: -2882473954565191401
+    second: 2dpixx_ccart_indoor_tiles_178
+  - first:
+      213: -2022536197247109150
+    second: 2dpixx_ccart_indoor_tiles_179
+  - first:
+      213: -5739796481582717771
+    second: 2dpixx_ccart_indoor_tiles_180
+  - first:
+      213: -7879026832831767061
+    second: 2dpixx_ccart_indoor_tiles_181
+  - first:
+      213: -4814752168628861935
+    second: 2dpixx_ccart_indoor_tiles_182
+  - first:
+      213: -3746869985099076624
+    second: 2dpixx_ccart_indoor_tiles_183
+  - first:
+      213: 3878240743603273492
+    second: 2dpixx_ccart_indoor_tiles_184
+  - first:
+      213: 6672774929555509119
+    second: 2dpixx_ccart_indoor_tiles_185
+  - first:
+      213: 1111753496302122666
+    second: 2dpixx_ccart_indoor_tiles_186
+  - first:
+      213: -2724689777462220644
+    second: 2dpixx_ccart_indoor_tiles_187
+  - first:
+      213: -2525822959310020418
+    second: 2dpixx_ccart_indoor_tiles_188
+  - first:
+      213: 8956163366342245582
+    second: 2dpixx_ccart_indoor_tiles_189
+  - first:
+      213: 5379145154783409962
+    second: 2dpixx_ccart_indoor_tiles_190
+  - first:
+      213: 3582438347541699946
+    second: 2dpixx_ccart_indoor_tiles_191
+  - first:
+      213: -4611454359162975755
+    second: 2dpixx_ccart_indoor_tiles_192
+  - first:
+      213: -573167376557455797
+    second: 2dpixx_ccart_indoor_tiles_193
+  - first:
+      213: -5519282682691217383
+    second: 2dpixx_ccart_indoor_tiles_194
+  - first:
+      213: -6868474568121570730
+    second: 2dpixx_ccart_indoor_tiles_195
+  - first:
+      213: -184785137768085137
+    second: 2dpixx_ccart_indoor_tiles_196
+  - first:
+      213: -4797493154988075645
+    second: 2dpixx_ccart_indoor_tiles_197
+  - first:
+      213: -4501299572191104044
+    second: 2dpixx_ccart_indoor_tiles_198
+  - first:
+      213: -347697585036138657
+    second: 2dpixx_ccart_indoor_tiles_199
+  - first:
+      213: 5547276184283891041
+    second: 2dpixx_ccart_indoor_tiles_200
+  - first:
+      213: -7153304886280352719
+    second: 2dpixx_ccart_indoor_tiles_201
+  - first:
+      213: -1043174680871781730
+    second: 2dpixx_ccart_indoor_tiles_202
+  - first:
+      213: 9109212535798708204
+    second: 2dpixx_ccart_indoor_tiles_203
+  - first:
+      213: 5182961195752911809
+    second: 2dpixx_ccart_indoor_tiles_204
+  - first:
+      213: 2818045192645293893
+    second: 2dpixx_ccart_indoor_tiles_205
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 934
+        width: 214
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea96e42c375847c80800000000000000
+      internalID: -8325883078873552466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 769
+        width: 222
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81592d2631acb520800000000000000
+      internalID: 2719225529082925453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 769
+        width: 222
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbe63ee05bf06a00800000000000000
+      internalID: 747873863156034499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 674
+        width: 225
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b6428b1ce1c5020800000000000000
+      internalID: 2331772524437990193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 410
+        width: 194
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b2c11fa71fe5ef0800000000000000
+      internalID: -117391029931594984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 595
+        width: 192
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c9c17b1a90aa880800000000000000
+      internalID: -8599049948344050633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 592
+        width: 190
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e3aa094b9787060800000000000000
+      internalID: 6951439841274510875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 406
+        width: 194
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba743eea2fa966e0800000000000000
+      internalID: -1843749973511603533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 388
+        width: 127
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ec24198190b75b0800000000000000
+      internalID: -5369688129588244909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 253
+        width: 124
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34075e7a0dfb1d40800000000000000
+      internalID: 5556312786802771005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 591
+        width: 97
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358223ed53b9c3a90800000000000000
+      internalID: -7332815437602609069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 455
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14956ca418a6004d0800000000000000
+      internalID: -3170417034130990783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 388
+        width: 257
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cad305999eb959d0800000000000000
+      internalID: -2784985327712609599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 5
+        width: 256
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e406bca12f5341fd0800000000000000
+      internalID: -2372211789769514930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 78
+        width: 357
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98418bd461df696f0800000000000000
+      internalID: -678076421637663607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 509
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12ab1fb6f69a6670800000000000000
+      internalID: 8532798430519206429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 133
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8983d39e83f9e07b0800000000000000
+      internalID: -5256088648314701672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 308
+        width: 94
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9362d81c0c0fc7e80800000000000000
+      internalID: -8179398112540023239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 592
+        width: 45
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285ecfc03c3b44570800000000000000
+      internalID: 8450076451171788162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 772
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89bf9efa4436ee30800000000000000
+      internalID: 4532367571699087756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 595
+        width: 44
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cf1eb44e6a9de80800000000000000
+      internalID: -8153302150921716605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_21
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 729
+        width: 150
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972585de5f0679460800000000000000
+      internalID: 7248368734641345145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_22
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 412
+        width: 150
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194d28a942f732720800000000000000
+      internalID: 2820237586851878033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_23
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 308
+        width: 163
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea12785c217aa8c0800000000000000
+      internalID: -3987250084806780191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_24
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 304
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17482cf31f6e98720800000000000000
+      internalID: 2849062163119768689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_25
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 37
+        width: 141
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a9a24481e7cad20800000000000000
+      internalID: 3291144070388947523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_26
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 37
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f4cc1b5e7a285b0800000000000000
+      internalID: -5367543200899903650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 304
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effb3ae338c64c840800000000000000
+      internalID: 5243435177113534462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2dpixx_ccart_indoor_tiles_28
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 40
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90110f5139a1e350800000000000000
+      internalID: 6044298204420313245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
