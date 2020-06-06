@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Furniture
+    uniqueID: 3786639627
+    locked: 0
+  - name: Player
+    uniqueID: 488216851
+    locked: 0
+  - name: Foreground
+    uniqueID: 1847375817
+    locked: 0
