@@ -8,7 +8,7 @@ public class DialogueTrigger : MonoBehaviour {
 
 	public void triggerDialogue ()
 	{
-        Debug.Log("Trigger Clicked");
+        FindObjectOfType<GameStateManager>().incrementMood(dialogue.moodValue);
 		FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
 	}
 

@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2902131100039332037}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.98, y: -2.47, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalScale: {x: 0.33333334, y: 0.33333334, z: 0.25}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -71,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -508327669
-  m_SortingLayer: 2
+  m_SortingLayerID: 1847375817
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 92393f1dd0cf21140837c11f809b58c4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -168,3 +168,4 @@ MonoBehaviour:
     sentences:
     - ZZZzzzz.....
     - '  .'
+    moodValue: 10
