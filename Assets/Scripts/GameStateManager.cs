@@ -13,6 +13,7 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] private DialogueManager dialogueManager;
     [SerializeField] private Dialogue newDayDialogue;
     [SerializeField] private Dialogue endGameDialogue;
+    [SerializeField] private GameObject moodCanvas;
     [SerializeField] private Text dayTextWhite;
     [SerializeField] private Text dayTextBlack;
     [SerializeField] private Text timeTextWhite;
@@ -25,7 +26,8 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] private static int START_OF_DAY = 8; // 8 am Military time
     [SerializeField] private static int END_OF_DAY_THRESHOLD = 20; // 8pm in Military time
 
-
+    private bool gameIsActive;
+    private MoodBar moodBar;
 
 
 
@@ -39,20 +41,25 @@ public class GameStateManager : MonoBehaviour
     void Start()
     {
         moodScore = STARTING_SCORE;
+        moodBar = moodCanvas.GetComponent<MoodBar>();
         time = 8;
         Debug.Log(time);
-        day = 0;
+        day = 1;
         Debug.Log(day);
 
         dialogueManager.StartDialogue(openingText);
         displayDay();
         displayTime();
+        moodBar.SetMaxMood(UPPER_MOOD_THRESHOLD);
+        moodBar.SetMood(moodScore);
+        gameIsActive = true;
+        
 
     }
 
     public void incrementMood(int moodValue)
     {
-        if(day < 1)
+        if (day < 1)
         {
             day = 1;
             displayDay();
@@ -67,6 +74,7 @@ public class GameStateManager : MonoBehaviour
         }
 
         displayTime();
+        moodBar.SetMood(moodScore);
 
         if (moodScore >= UPPER_MOOD_THRESHOLD)
         {
@@ -123,6 +131,7 @@ public class GameStateManager : MonoBehaviour
 
     private void endGame(PossibleEndStates endState)
     {
+        gameIsActive = false;
 
         switch (endState)
         {
@@ -132,7 +141,6 @@ public class GameStateManager : MonoBehaviour
                 endGameDialogue.sentences[1] = "You lasted " + day + " days.";
                 endGameDialogue.sentences[2] = "Your final mood score was " + moodScore + ".";
                 dialogueManager.StartDialogue(endGameDialogue);
-                resetScore();
                 break;
             case PossibleEndStates.Lose:
                 Debug.Log("Oops, you lose. Resetting score...");
@@ -140,11 +148,9 @@ public class GameStateManager : MonoBehaviour
                 endGameDialogue.sentences[1] = "You lasted " + day + " days.";
                 endGameDialogue.sentences[2] = "Your final mood score was " + moodScore + ".";
                 dialogueManager.StartDialogue(endGameDialogue);
-                resetScore();
                 break;
             default:
                 Debug.Log("Hmm.... you seem to have ended the game in an unexpected way. Resetting score...");
-                resetScore();
                 break;
         }
         
@@ -155,6 +161,11 @@ public class GameStateManager : MonoBehaviour
         moodScore = STARTING_SCORE;
         day = 0;
         Debug.Log("Score updated to: " + moodScore);
+    }
+
+    public bool isGameActive()
+    {
+        return gameIsActive; 
     }
 
 }

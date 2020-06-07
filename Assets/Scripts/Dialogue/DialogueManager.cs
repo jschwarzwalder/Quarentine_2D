@@ -12,6 +12,10 @@ public class DialogueManager : MonoBehaviour
 
     public Animator animator;
 
+
+
+
+
     private Queue<string> sentenceQueue;
 
     // Use this for initialization
