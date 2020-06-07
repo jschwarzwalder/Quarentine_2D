@@ -21,9 +21,9 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] private static int UPPER_MOOD_THRESHOLD = 100;
     [SerializeField] private static int LOWER_MOOD_THRESHOLD = 0;
 
-    [SerializeField] private static int STARTING_DAY = 1; 
+    [SerializeField] private static int STARTING_DAY = 1;
     [SerializeField] private static int STARTING_TIME = 8; // 8 am Military time
-    [SerializeField] private static int END_OF_DAY_THRESHOLD = 20; // 8pm in Military time
+    [SerializeField] private static int END_OF_DAY_THRESHOLD = 21; // 8pm in Military time
 
     private bool gameIsActive;
     private MoodBar moodBar;
@@ -48,7 +48,7 @@ public class GameStateManager : MonoBehaviour
         moodBar.SetMaxMood(UPPER_MOOD_THRESHOLD);
         moodBar.SetMood(moodScore);
         gameIsActive = true;
-        
+
     }
 
     public void incrementMood(int moodValue)
@@ -84,17 +84,19 @@ public class GameStateManager : MonoBehaviour
     private void endDay()
     {
         Dialogue newDayDialogue = new Dialogue();
+        string[] endDaySentences = new string[3];
 
         string endOfDayMessage = "The day has ended! Resetting the day, but keeping the score. >>";
-        newDayDialogue.sentences[0] = endOfDayMessage;
+        endDaySentences[0] = endOfDayMessage;
         Debug.Log(endOfDayMessage);
         day = day + 1;
         time = STARTING_TIME;
         string newDayMessage = "Day " + day + ". Time is now: " + time + " Score is still: " + moodScore + ">>";
-        newDayDialogue.sentences[1] = newDayMessage;
+        endDaySentences[1] = newDayMessage;
         Debug.Log(newDayMessage);
 
-        newDayDialogue.sentences[2] = "Click on an Item to Interact";
+        endDaySentences[2] = "Click on an Item to Interact";
+        newDayDialogue.sentences = endDaySentences;
         dialogueManager.StartDialogue(newDayDialogue);
         displayDay();
     }
@@ -114,10 +116,12 @@ public class GameStateManager : MonoBehaviour
             int hour = time - 12;
             timeTextWhite.text = hour + " pm";
             timeTextBlack.text = hour + " pm";
-        } 
+        }
         else if (time == 12)
         {
             Debug.Log("It is now " + time + " pm.");
+            timeTextWhite.text = time + " pm";
+            timeTextBlack.text = time + " pm";
         }
         else
         {
@@ -133,28 +137,31 @@ public class GameStateManager : MonoBehaviour
         gameIsActive = false;
 
         Dialogue endGameDialogue = new Dialogue();
+        string[] endGameSentences = new string[3];
 
         switch (endState)
         {
             case PossibleEndStates.Win:
                 Debug.Log("You won! Resetting score...");
-                endGameDialogue.sentences[0] = "Congratulations, You Won! >>";
-                endGameDialogue.sentences[1] = "You lasted " + day + " days. >>";
-                endGameDialogue.sentences[2] = "Your final mood score was " + moodScore + ".";
+                endGameSentences[0] = "Congratulations, You Won! >>";
+                endGameSentences[1] = "You lasted " + day + " days. >>";
+                endGameSentences[2] = "Your final mood score was " + moodScore + ".";
+                endGameDialogue.sentences = endGameSentences;
                 dialogueManager.StartDialogue(endGameDialogue);
                 break;
             case PossibleEndStates.Lose:
                 Debug.Log("Oops, you lose. Resetting score...");
-                endGameDialogue.sentences[0] = "Unfortunately, You Lost! >>";
-                endGameDialogue.sentences[1] = "You lasted " + day + " days. >>";
-                endGameDialogue.sentences[2] = "Your final mood score was " + moodScore + ".";
+                endGameSentences[0] = "Unfortunately, You Lost! >>";
+                endGameSentences[1] = "You lasted " + day + " days. >>";
+                endGameSentences[2] = "Your final mood score was " + moodScore + ".";
+                endGameDialogue.sentences = endGameSentences;
                 dialogueManager.StartDialogue(endGameDialogue);
                 break;
             default:
                 Debug.Log("Hmm.... you seem to have ended the game in an unexpected way. Resetting score...");
                 break;
         }
-        
+
     }
 
     private void resetScore()
@@ -166,7 +173,7 @@ public class GameStateManager : MonoBehaviour
 
     public bool isGameActive()
     {
-        return gameIsActive; 
+        return gameIsActive;
     }
 
 }
