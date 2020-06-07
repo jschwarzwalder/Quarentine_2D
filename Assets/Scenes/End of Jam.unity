@@ -249,6 +249,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1646904059}
     m_Modifications:
+    - target: {fileID: 1264471593, guid: 911d201438ba82346bb79c4ce4770481, type: 3}
+      propertyPath: maxInteractionsPerDay
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 452928816343519218, guid: 911d201438ba82346bb79c4ce4770481,
         type: 3}
       propertyPath: m_Name
@@ -1183,6 +1187,96 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1001 &419893448
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1152669437}
+    m_Modifications:
+    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.364153
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5015136
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.7617188
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971619986748215708, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_Name
+      value: microwave_open
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971619986748215709, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971619986748215709, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1847375817
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971619986748215709, guid: 5150089de3584824ab947baf7d391cdd,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5150089de3584824ab947baf7d391cdd, type: 3}
+--- !u!4 &419893449 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
+    type: 3}
+  m_PrefabInstance: {fileID: 419893448}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &428444658 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4888948303712886993, guid: 19af19c658ee12e4bbaf99af252b04c4,
@@ -3871,6 +3965,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: black-kitten1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5228280947667845459, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: maxInteractionsPerDay
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5228280947667845464, guid: 2e668c2d511216b4394f15c8d1f72a54,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4675,7 +4774,7 @@ Transform:
   - {fileID: 144313431}
   - {fileID: 1612554597}
   - {fileID: 2038500905}
-  - {fileID: 1205278312}
+  - {fileID: 419893449}
   - {fileID: 1106646555}
   - {fileID: 1024763875}
   - {fileID: 1619841882}
@@ -4688,12 +4787,6 @@ Transform:
   m_Father: {fileID: 1646904059}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1205278312 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
-    type: 3}
-  m_PrefabInstance: {fileID: 4971619987808258042}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1255227081
 GameObject:
   m_ObjectHideFlags: 0
@@ -4758,6 +4851,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1646904059}
     m_Modifications:
+    - target: {fileID: 1264471593, guid: 911d201438ba82346bb79c4ce4770481, type: 3}
+      propertyPath: maxInteractionsPerDay
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 452928816343519218, guid: 911d201438ba82346bb79c4ce4770481,
         type: 3}
       propertyPath: m_Name
@@ -6540,6 +6637,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1646904059}
     m_Modifications:
+    - target: {fileID: 1264471593, guid: 911d201438ba82346bb79c4ce4770481, type: 3}
+      propertyPath: maxInteractionsPerDay
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 452928816343519218, guid: 911d201438ba82346bb79c4ce4770481,
         type: 3}
       propertyPath: m_Name
@@ -7249,6 +7350,139 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1646904059}
     m_Modifications:
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: maxInteractionsPerDay
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: "\"Books are a uniquely portable magic.\" \u2013 Stephen King\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: "\"No two persons ever read the same book.\" \u2013 Edmund Wilson"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: "\"Whenever you read a good book, somewhere in the world a door opens
+        to allow in more light\". \u2013 Vera Nazarian"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: "\"Reading gives us someplace to go when we have to stay where we are.\"
+        \u2013 Mason Cooley"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: "\"Anyone who says they have only one life to live must not know how
+        to read a book.\" \u2013 Author Unknown"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: "\"There is no friend as loyal as a book.\" \u2013 Ernest Hemingway"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: "\"You can\u2019t buy happiness, but you can buy books and that\u2019s
+        kind of the same thing.\" \u2013 Author Unknown"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: "\"If you only read the books that everyone else is reading, you can
+        only think what everyone else is thinking.\" \u2013 Haruki Murakami"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[8]
+      value: "\"A good novel tells us the truth about its hero; but a bad novel tells
+        us the truth about its author. \"\r\n\u2013 Gilbert K. Chesterton\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[9]
+      value: "\"A book is a dream that you hold in your hand.\" \u2013 Neil Gaiman"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[10]
+      value: "\"Any book that helps a child to form a habit of reading, to make reading
+        one of his deep and continuing needs, is good for him.\" \u2013 Maya Angelou"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[11]
+      value: "\"Great books help you understand, and they help you feel understood.\"
+        \u2013 John Green"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[12]
+      value: "\"A book is a version of the world. If you do not like it, ignore it
+        or offer your own version in return.\" \u2013 Salman Rushdie"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[13]
+      value: "\"We lose ourselves in books. We find ourselves there too.\" \u2013
+        Author Unknown"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[14]
+      value: "\"It is what you read when you don\u2019t have to that determines what
+        you will be when you can\u2019t help it.\" \u2013 Oscar Wilde"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[15]
+      value: "\"So many books, so little time.\" \u2013 Frank Zappa"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[16]
+      value: "\"Between the pages of a book is a wonderful place to be.\" \u2013
+        Author Unknown"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[17]
+      value: "\"A book is the only place in which you can examine a fragile thought
+        without breaking it.\" \u2013 Edward P. Morgan"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[18]
+      value: "\"The only important thing in a book is the meaning that it has for
+        you.\" \u2013 W. Somerset Maugham"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[19]
+      value: "\"Reading a book is like re-writing it for yourself.\" \u2013 Angela
+        Carter"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[20]
+      value: "\"There\u2019s nothing wrong with reading a book you love over and
+        over.\" \u2013 Gail Carson Levine"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603514260512100180, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[21]
+      value: "\"A great book should leave you with many experiences, and slightly
+        exhausted at the end. You live several lives while reading.\" \u2013 William
+        Styron"
+      objectReference: {fileID: 0}
     - target: {fileID: 4302393098112020420, guid: 835c029e4e3eb9c4aacccb0feeb1e2bb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7456,6 +7690,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1152669437}
     m_Modifications:
+    - target: {fileID: 2802412467568614202, guid: b069f0e59fd32884cbccc1c54e77c970,
+        type: 3}
+      propertyPath: maxInteractionsPerDay
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2802412467568614205, guid: b069f0e59fd32884cbccc1c54e77c970,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7753,75 +7992,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19af19c658ee12e4bbaf99af252b04c4, type: 3}
---- !u!1001 &4971619987808258042
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1152669437}
-    m_Modifications:
-    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -10.364153
-      objectReference: {fileID: 0}
-    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.5015136
-      objectReference: {fileID: 0}
-    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3.7617188
-      objectReference: {fileID: 0}
-    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4971619986748215698, guid: 5150089de3584824ab947baf7d391cdd,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4971619986748215708, guid: 5150089de3584824ab947baf7d391cdd,
-        type: 3}
-      propertyPath: m_Name
-      value: microwave_open
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5150089de3584824ab947baf7d391cdd, type: 3}
 --- !u!1001 &5264150051634824626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8541,6 +8711,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5351357321777453709, guid: 8eed12cd4e1eca44c96dc30f76a451ae,
+        type: 3}
+      propertyPath: maxInteractionsPerDay
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5351357321777453714, guid: 8eed12cd4e1eca44c96dc30f76a451ae,
         type: 3}
