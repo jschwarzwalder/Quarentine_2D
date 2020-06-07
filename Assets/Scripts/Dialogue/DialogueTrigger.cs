@@ -1,18 +1,27 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class DialogueTrigger : MonoBehaviour {
+public class DialogueTrigger : MonoBehaviour
+{
+    public bool selectSingleRandomString;
+    public Dialogue dialogue;
+    
 
-	public Dialogue dialogue;
+    public void triggerDialogue()
+    {
+        Debug.Log("Trigger Clicked");
+        if (selectSingleRandomString)
+        {
+            FindObjectOfType<DialogueManager>().SelectRandom(dialogue);
+        }
+        else
+        {
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        }
 
-	public void triggerDialogue ()
-	{
-        FindObjectOfType<GameStateManager>().incrementMood(dialogue.moodValue);
-		FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-	}
+    }
 
-    void OnMouseDown() {
+    void OnMouseDown()
+    {
         triggerDialogue();
     }
 

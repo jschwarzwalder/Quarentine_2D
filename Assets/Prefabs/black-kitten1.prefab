@@ -167,5 +167,9 @@ MonoBehaviour:
     name: Sleepy Cat
     sentences:
     - ZZZzzzz.....
+    - "Purr\u2026."
+    - 'Meow '
     - '  .'
     moodValue: 10
+
+
