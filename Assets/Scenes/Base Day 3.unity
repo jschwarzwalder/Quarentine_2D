@@ -121,87 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &17184317
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 17184321}
-  - component: {fileID: 17184320}
-  m_Layer: 0
-  m_Name: Food2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &17184320
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17184317}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1847375817
-  m_SortingLayer: 4
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3113d8555e99aef45b551a374f2c66d3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.23, y: 0.18}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &17184321
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17184317}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.80154, y: -8.879904, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1152669437}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &25290806 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7381766522969028720, guid: b4bc359f8de5f7241b9a9da166e23184,
@@ -4746,7 +4665,6 @@ Transform:
   - {fileID: 1743943988}
   - {fileID: 1417720745}
   - {fileID: 673074717}
-  - {fileID: 17184321}
   - {fileID: 298403952}
   m_Father: {fileID: 1646904059}
   m_RootOrder: 11
@@ -5261,106 +5179,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2767171798848497669}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1362339429
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1362339431}
-  - component: {fileID: 1362339430}
-  - component: {fileID: 1362339432}
-  m_Layer: 0
-  m_Name: GameState Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1362339430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362339429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c4d641fa99744942bd6c8a4cd73fc63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  openingText:
-    name: 
-    sentences:
-    - "Bad News, Good Kitty  \nPress Continue to Start >>"
-    - The Year was 2020 >>
-    - Everything was starting off well, when reports of a mysterious illness emerged
-      >>
-    - There is no cure, and no vaccine >>
-    - Everyone has been asked to Social Distance >>
-    - You live alone with your cat >>
-    - Unfortunately you were layed off until social distaning ends >>
-    - How long can you keep your mood up while staying inside >>
-    - Everything you interact with takes one hour >>
-    - Move with the Arrow Keys or WASD >>
-    - Some things increase your mood while others will bring it down >>
-    - Click on an Item with your mouse to Interact
-    moodValue: 0
-  dialogueManager: {fileID: 428444658}
-  newDayDialogue:
-    name: 
-    sentences:
-    - 
-    - 
-    - 
-    moodValue: 0
-  endGameDialogue:
-    name: 
-    sentences:
-    - 
-    - 
-    - 
-    moodValue: 0
-  moodCanvas: {fileID: 273333449}
-  dayTextWhite: {fileID: 4545488577254182391}
-  dayTextBlack: {fileID: 5296095772641144885}
-  timeTextWhite: {fileID: 4545488578452740265}
-  timeTextBlack: {fileID: 5296095773302760811}
---- !u!4 &1362339431
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362339429}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.033286482, y: -0.055366427, z: -0.16884813}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1362339432
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1362339429}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1386064024
 GameObject:
   m_ObjectHideFlags: 0
@@ -7099,6 +6917,105 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab08dc6fafe59924dbb3183a91be1ef0, type: 3}
+--- !u!1001 &240725985420260945
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 240725986744569908, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: m_Name
+      value: GameState Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 240725986744569910, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.033286482
+      objectReference: {fileID: 0}
+    - target: {fileID: 240725986744569910, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.055366427
+      objectReference: {fileID: 0}
+    - target: {fileID: 240725986744569910, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.16884813
+      objectReference: {fileID: 0}
+    - target: {fileID: 240725986744569910, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 240725986744569910, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 240725986744569910, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 240725986744569910, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 240725986744569910, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 240725986744569910, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 240725986744569910, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 240725986744569910, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 240725986744569911, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 428444658}
+    - target: {fileID: 240725986744569911, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: moodCanvas
+      value: 
+      objectReference: {fileID: 273333449}
+    - target: {fileID: 240725986744569911, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: dayTextWhite
+      value: 
+      objectReference: {fileID: 4545488577254182391}
+    - target: {fileID: 240725986744569911, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: dayTextBlack
+      value: 
+      objectReference: {fileID: 5296095772641144885}
+    - target: {fileID: 240725986744569911, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: timeTextWhite
+      value: 
+      objectReference: {fileID: 4545488578452740265}
+    - target: {fileID: 240725986744569911, guid: cc7842753116860448eaee07948ff93b,
+        type: 3}
+      propertyPath: timeTextBlack
+      value: 
+      objectReference: {fileID: 5296095773302760811}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cc7842753116860448eaee07948ff93b, type: 3}
 --- !u!1001 &512783694725440558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9261,7 +9178,7 @@ PrefabInstance:
     - target: {fileID: 7826440454510963023, guid: ed8a0b47d3017744cac8927364ca5b49,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 7826440454510963023, guid: ed8a0b47d3017744cac8927364ca5b49,
         type: 3}

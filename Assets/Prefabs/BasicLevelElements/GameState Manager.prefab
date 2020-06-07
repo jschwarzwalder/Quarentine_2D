@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &240725986744569908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 240725986744569910}
+  - component: {fileID: 240725986744569911}
+  - component: {fileID: 240725986744569913}
+  m_Layer: 0
+  m_Name: GameState Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &240725986744569910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240725986744569908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.033286482, y: -0.055366427, z: -0.16884813}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &240725986744569911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240725986744569908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c4d641fa99744942bd6c8a4cd73fc63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openingText:
+    name: 
+    sentences:
+    - "Bad News, Good Kitty  \nPress Continue to Start >>"
+    - The Year was 2020 >>
+    - Everything was starting off well, when reports of a mysterious illness emerged
+      >>
+    - There is no cure, and no vaccine >>
+    - Everyone has been asked to Social Distance >>
+    - You live alone with your cat >>
+    - Unfortunately you were layed off until social distaning ends >>
+    - How long can you keep your mood up while staying inside >>
+    - Everything you interact with takes one hour >>
+    - Move with the Arrow Keys or WASD >>
+    - Some things increase your mood while others will bring it down >>
+    - If you get your mood high enough you win >>
+    - Click on an Item with your mouse to Interact
+    moodValue: 0
+  dialogueManager: {fileID: 0}
+  newDayDialogue:
+    name: 
+    sentences:
+    - 
+    - 
+    - 
+    moodValue: 0
+  endGameDialogue:
+    name: 
+    sentences:
+    - 
+    - 
+    - 
+    moodValue: 0
+  moodCanvas: {fileID: 0}
+  dayTextWhite: {fileID: 0}
+  dayTextBlack: {fileID: 0}
+  timeTextWhite: {fileID: 0}
+  timeTextBlack: {fileID: 0}
+--- !u!95 &240725986744569913
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240725986744569908}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
