@@ -12,10 +12,6 @@ public class DialogueManager : MonoBehaviour
 
     public Animator animator;
 
-
-
-
-
     private Queue<string> sentenceQueue;
 
     // Use this for initialization
@@ -27,11 +23,9 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        
 
         if (sentenceQueue.Count > 0)
         {
-
             sentenceQueue.Clear();
         }
 
@@ -40,12 +34,12 @@ public class DialogueManager : MonoBehaviour
             sentenceQueue.Enqueue(sentence);
         }
 
+        animator.SetBool("isOpen", true);
         DisplayNextSentence();
     }
 
     public void SelectRandom(Dialogue dialogue)
     {
-        Debug.Log("Starting dialogue");
         animator.SetBool("isOpen", true);
 
         string[] sentences = dialogue.sentences;
@@ -58,9 +52,6 @@ public class DialogueManager : MonoBehaviour
 
         StopAllCoroutines();
         StartCoroutine(TypeSentence(" " + sentence));
-
-        EndDialogue();
-        return;
 
     }
 

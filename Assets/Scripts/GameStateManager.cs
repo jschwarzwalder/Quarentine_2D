@@ -29,8 +29,6 @@ public class GameStateManager : MonoBehaviour
     private bool gameIsActive;
     private MoodBar moodBar;
 
-
-
     private enum PossibleEndStates
     {
         Win,
@@ -54,7 +52,6 @@ public class GameStateManager : MonoBehaviour
         moodBar.SetMood(moodScore);
         gameIsActive = true;
         
-
     }
 
     public void incrementMood(int moodValue)
@@ -119,6 +116,10 @@ public class GameStateManager : MonoBehaviour
             int hour = time - 12;
             timeTextWhite.text = hour + " pm";
             timeTextBlack.text = hour + " pm";
+        } 
+        else if (time == 12)
+        {
+            Debug.Log("It is now " + time + " pm.");
         }
         else
         {
@@ -137,14 +138,14 @@ public class GameStateManager : MonoBehaviour
         {
             case PossibleEndStates.Win:
                 Debug.Log("You won! Resetting score...");
-                endGameDialogue.sentences[0] = "Congratulations you Won! >>";
+                endGameDialogue.sentences[0] = "Congratulations, You Won! >>";
                 endGameDialogue.sentences[1] = "You lasted " + day + " days. >>";
                 endGameDialogue.sentences[2] = "Your final mood score was " + moodScore + ".";
                 dialogueManager.StartDialogue(endGameDialogue);
                 break;
             case PossibleEndStates.Lose:
                 Debug.Log("Oops, you lose. Resetting score...");
-                endGameDialogue.sentences[0] = "Unfortuallly you Lost! >>";
+                endGameDialogue.sentences[0] = "Unfortunately, You Lost! >>";
                 endGameDialogue.sentences[1] = "You lasted " + day + " days. >>";
                 endGameDialogue.sentences[2] = "Your final mood score was " + moodScore + ".";
                 dialogueManager.StartDialogue(endGameDialogue);
