@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6865926081429553402}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.4841537, y: 0.13418394, z: 3.7617188}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
@@ -124,8 +124,8 @@ MonoBehaviour:
   selectSingleRandomString: 1
   dialogue:
     name: 
-    sentences:
-    - You recycle Plastic Wrapper
-    - You recycle recycles Junk Mail
-    - You recycle a Cardboard Box
     moodValue: 1
+    sentences:
+    - You recycle a Plastic Wrapper
+    - You recycle the Junk Mail
+    - You recycle a Cardboard Box

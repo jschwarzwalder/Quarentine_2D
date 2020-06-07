@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2767171799957917651}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -12.96, y: -0.82581604, z: 3.7617188}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
@@ -124,9 +124,9 @@ MonoBehaviour:
   selectSingleRandomString: 1
   dialogue:
     name: Stove
+    moodValue: 0
     sentences:
     - You turn on the Stove
-    - You preheat oven
+    - You preheat the oven
     - You bake homemade sourdough bread
     - You make some shrinky dinks
-    moodValue: 0

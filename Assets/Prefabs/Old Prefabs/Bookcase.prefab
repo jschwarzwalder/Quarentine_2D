@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8394482760892067846}
+  - component: {fileID: 1264471592}
+  - component: {fileID: 1264471593}
   m_Layer: 0
   m_Name: Bookcase
   m_TagString: Untagged
@@ -25,13 +27,94 @@ Transform:
   m_GameObject: {fileID: 452928816343519218}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11.15, y: 3.7, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 6452191085472944189}
   - {fileID: 6452191083989651175}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1264471592
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452928816343519218}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.4906329}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.9812658}
+  m_EdgeRadius: 0
+--- !u!114 &1264471593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452928816343519218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: Bookcase
+    moodValue: 2
+    sentences:
+    - "\"Books are a uniquely portable magic.\" \u2013 Stephen King\r\n"
+    - "\"No two persons ever read the same book.\" \u2013 Edmund Wilson"
+    - "\"Whenever you read a good book, somewhere in the world a door opens to allow
+      in more light\". \u2013 Vera Nazarian"
+    - "\"Reading gives us someplace to go when we have to stay where we are.\" \u2013
+      Mason Cooley"
+    - "\"Anyone who says they have only one life to live must not know how to read
+      a book.\" \u2013 Author Unknown"
+    - "\"There is no friend as loyal as a book.\" \u2013 Ernest Hemingway"
+    - "\"You can\u2019t buy happiness, but you can buy books and that\u2019s kind
+      of the same thing.\" \u2013 Author Unknown"
+    - "\"If you only read the books that everyone else is reading, you can only think
+      what everyone else is thinking.\" \u2013 Haruki Murakami"
+    - "\"A good novel tells us the truth about its hero; but a bad novel tells us
+      the truth about its author. \"\r\n\u2013 Gilbert K. Chesterton\r\n"
+    - "\"A book is a dream that you hold in your hand.\" \u2013 Neil Gaiman"
+    - "\"Any book that helps a child to form a habit of reading, to make reading
+      one of his deep and continuing needs, is good for him.\" \u2013 Maya Angelou"
+    - "\"Great books help you understand, and they help you feel understood.\" \u2013
+      John Green"
+    - "\"A book is a version of the world. If you do not like it, ignore it or offer
+      your own version in return.\" \u2013 Salman Rushdie"
+    - "\"We lose ourselves in books. We find ourselves there too.\" \u2013 Author
+      Unknown"
+    - "\"It is what you read when you don\u2019t have to that determines what you
+      will be when you can\u2019t help it.\" \u2013 Oscar Wilde"
+    - "\"So many books, so little time.\" \u2013 Frank Zappa"
+    - "\"Between the pages of a book is a wonderful place to be.\" \u2013 Author
+      Unknown"
+    - "\"A book is the only place in which you can examine a fragile thought without
+      breaking it.\" \u2013 Edward P. Morgan"
+    - "\"The only important thing in a book is the meaning that it has for you.\"
+      \u2013 W. Somerset Maugham"
+    - "\"Reading a book is like re-writing it for yourself.\" \u2013 Angela Carter"
+    - "\"There\u2019s nothing wrong with reading a book you love over and over.\"
+      \u2013 Gail Carson Levine"
+    - "\"A great book should leave you with many experiences, and slightly exhausted
+      at the end. You live several lives while reading.\" \u2013 William Styron"
 --- !u!1 &6452191083989651177
 GameObject:
   m_ObjectHideFlags: 0
@@ -100,7 +183,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -508327669
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1110238542749832126, guid: e407cb151f73b144a9d52453047a15a7,
     type: 3}
@@ -182,7 +265,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -508327669
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 3399408706107011553, guid: e407cb151f73b144a9d52453047a15a7,
     type: 3}

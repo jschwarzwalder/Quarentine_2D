@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4971619986748215708}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10.364153, y: -0.5015136, z: 3.7617188}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
@@ -124,17 +124,15 @@ MonoBehaviour:
   selectSingleRandomString: 1
   dialogue:
     name: 
+    moodValue: 1
     sentences:
     - "You microwave a Hot Pocket\t"
     - You microwave a Brownie in a Mug
     - You microwave some Popcorn
     - 'You microwave some Leftovers '
     - You microwave a TV Dinner
-    - You use microwave to Make soap Cloud
-    - You use microwave for Epic Peep Battle
-    - You use microwave to Make soap Cloud
-    - You use microwave to Make soap Cloud
-    - You use microwave and Koolaid to Dye Yarn
-    - You use microwave for Science Experiments
-    - You use microwave to measure the speed of light
-    moodValue: 1
+    - You microwave a bar of soap to see what happens
+    - You use the microwave for an Epic Peep Battle
+    - You Microwave Koolaid to Dye Yarn
+    - You use the microwave for Science Experiments
+    - You use the microwave to measure the speed of light
