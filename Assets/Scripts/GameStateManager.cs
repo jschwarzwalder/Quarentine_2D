@@ -1,23 +1,37 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameStateManager : MonoBehaviour
 {
-    public int moodScore;
-    public int time;
+    private int moodScore;
+    private int time;
+    private int day;
 
-    private static int STARTING_SCORE = 50;
-    private static int UPPER_MOOD_THRESHOLD = 100;
-    private static int LOWER_MOOD_THRESHOLD = 0;
+    [SerializeField] private Dialogue openingText;
+    [SerializeField] private DialogueManager dialogueManager;
+    [SerializeField] private Dialogue newDayDialogue;
+    [SerializeField] private Dialogue endGameDialogue;
+    [SerializeField] private Text dayTextWhite;
+    [SerializeField] private Text dayTextBlack;
+    [SerializeField] private Text timeTextWhite;
+    [SerializeField] private Text timeTextBlack;
 
-    private static int START_OF_DAY = 8; // 8 am Military time
-    private static int END_OF_DAY_THRESHOLD = 20; // 8pm in Military time
+    [SerializeField] private static int STARTING_SCORE = 50;
+    [SerializeField] private static int UPPER_MOOD_THRESHOLD = 100;
+    [SerializeField] private static int LOWER_MOOD_THRESHOLD = 0;
+
+    [SerializeField] private static int START_OF_DAY = 8; // 8 am Military time
+    [SerializeField] private static int END_OF_DAY_THRESHOLD = 20; // 8pm in Military time
+
+
+
 
 
     private enum PossibleEndStates
     {
-        Win, 
+        Win,
         Lose
     }
 
@@ -26,54 +40,106 @@ public class GameStateManager : MonoBehaviour
     {
         moodScore = STARTING_SCORE;
         time = 8;
+        Debug.Log(time);
+        day = 0;
+        Debug.Log(day);
+
+        dialogueManager.StartDialogue(openingText);
+        displayDay();
+        displayTime();
+
     }
 
-    public void incrementMood(int moodValue){
+    public void incrementMood(int moodValue)
+    {
+        if(day < 1)
+        {
+            day = 1;
+            displayDay();
+        }
 
         moodScore += moodValue;
         Debug.Log("Incrementing moodValue: " + moodValue + " New score: " + moodScore);
-
         time += 1;
-        if( time >= END_OF_DAY_THRESHOLD){
+        if (time >= END_OF_DAY_THRESHOLD)
+        {
             endDay();
         }
 
         displayTime();
 
-        if(moodScore >= UPPER_MOOD_THRESHOLD){
+        if (moodScore >= UPPER_MOOD_THRESHOLD)
+        {
             endGame(PossibleEndStates.Win);
-        } else if (moodScore <= LOWER_MOOD_THRESHOLD){
+        }
+        else if (moodScore <= LOWER_MOOD_THRESHOLD)
+        {
             endGame(PossibleEndStates.Lose);
         }
 
     }
 
-    private void endDay(){
-        Debug.Log("The day has ended! Resetting the day, but keeping the score.");
+    private void endDay()
+    {
+
+        string endOfDayMessage = "The day has ended! Resetting the day, but keeping the score.";
+        newDayDialogue.sentences[0] = endOfDayMessage;
+        Debug.Log(endOfDayMessage);
+        day = day + 1;
         time = START_OF_DAY;
-        Debug.Log("Time is now: " + time + " Score is still: " + moodScore);
+        string newDayMessage = "Day " + day + ". Time is now: " + time + " Score is still: " + moodScore;
+        newDayDialogue.sentences[1] = newDayMessage;
+        Debug.Log(newDayMessage);
+
+        newDayDialogue.sentences[2] = "Click on an Item to Interact";
+        dialogueManager.StartDialogue(newDayDialogue);
+        displayDay();
     }
 
-    private void displayTime(){
+    private void displayDay()
+    {
+        dayTextWhite.text = "Day " + day;
+        dayTextBlack.text = "Day " + day;
+    }
 
-        if(time > 12){
+    private void displayTime()
+    {
+
+        if (time > 12)
+        {
             Debug.Log("It is now " + (time - 12) + " pm.");
-        } else {
-            Debug.Log("It is now " + time + " am.");
+            int hour = time - 12;
+            timeTextWhite.text = hour + " pm";
+            timeTextBlack.text = hour + " pm";
         }
-        
+        else
+        {
+            Debug.Log("It is now " + time + " am.");
+            timeTextWhite.text = time + " am";
+            timeTextBlack.text = time + " am";
+        }
+
     }
 
-    private void endGame(PossibleEndStates endState){
+    private void endGame(PossibleEndStates endState)
+    {
 
         switch (endState)
         {
             case PossibleEndStates.Win:
                 Debug.Log("You won! Resetting score...");
+                endGameDialogue.sentences[0] = "Congratulations you Won!";
+                endGameDialogue.sentences[1] = "You lasted " + day + " days.";
+                endGameDialogue.sentences[2] = "Your final mood score was " + moodScore + ".";
+                dialogueManager.StartDialogue(endGameDialogue);
                 resetScore();
                 break;
             case PossibleEndStates.Lose:
                 Debug.Log("Oops, you lose. Resetting score...");
+                endGameDialogue.sentences[0] = "Unfortuallly you Lost!";
+                endGameDialogue.sentences[1] = "You lasted " + day + " days.";
+                endGameDialogue.sentences[2] = "Your final mood score was " + moodScore + ".";
+                dialogueManager.StartDialogue(endGameDialogue);
                 resetScore();
                 break;
             default:
@@ -82,11 +148,12 @@ public class GameStateManager : MonoBehaviour
                 break;
         }
         
-
     }
 
-    private void resetScore(){
+    private void resetScore()
+    {
         moodScore = STARTING_SCORE;
+        day = 0;
         Debug.Log("Score updated to: " + moodScore);
     }
 

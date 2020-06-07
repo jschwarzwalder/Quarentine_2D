@@ -4,35 +4,42 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class DialogueManager : MonoBehaviour {
+public class DialogueManager : MonoBehaviour
+{
 
-	public Text dialogueTextWhite;
+    public Text dialogueTextWhite;
     public Text dialogueTextBlack;
 
     public Animator animator;
 
-	private Queue<string> sentenceQueue;
+    private Queue<string> sentenceQueue;
 
-	// Use this for initialization
-	void Start () {
-		sentenceQueue = new Queue<string>();
-	}
+    // Use this for initialization
+    void Start()
+    {
+        sentenceQueue = new Queue<string>();
+        animator.SetBool("isOpen", true);
+    }
 
-	public void StartDialogue (Dialogue dialogue)
-	{
-		animator.SetBool("isOpen", true);
+    public void StartDialogue(Dialogue dialogue)
+    {
+        
 
-		sentenceQueue.Clear();
+        if (sentenceQueue.Count > 0)
+        {
 
-		foreach (string sentence in dialogue.sentences)
-		{
-			sentenceQueue.Enqueue(sentence);
-		}
+            sentenceQueue.Clear();
+        }
 
-		DisplayNextSentence();
-	}
-    
-    public void SelectRandom (Dialogue dialogue)
+        foreach (string sentence in dialogue.sentences)
+        {
+            sentenceQueue.Enqueue(sentence);
+        }
+
+        DisplayNextSentence();
+    }
+
+    public void SelectRandom(Dialogue dialogue)
     {
         Debug.Log("Starting dialogue");
         animator.SetBool("isOpen", true);
@@ -46,43 +53,43 @@ public class DialogueManager : MonoBehaviour {
         string sentence = sentences[Random.RandomRange(0, length)];
 
         StopAllCoroutines();
-        StartCoroutine(TypeSentence(sentence));
+        StartCoroutine(TypeSentence(" " + sentence));
 
         EndDialogue();
         return;
 
     }
 
-	public void DisplayNextSentence ()
-	{
-		if (sentenceQueue.Count == 0)
-		{
-			EndDialogue();
-			return;
-		}
+    public void DisplayNextSentence()
+    {
+        if (sentenceQueue.Count == 0)
+        {
+            EndDialogue();
+            return;
+        }
 
-		string sentence = sentenceQueue.Dequeue();
-		StopAllCoroutines();
-		StartCoroutine(TypeSentence(sentence));
-	}
+        string sentence = sentenceQueue.Dequeue();
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(sentence));
+    }
 
-	IEnumerator TypeSentence (string sentence)
-	{
-		dialogueTextBlack.text = "";
-        dialogueTextWhite.text = "";
-		foreach (char letter in sentence.ToCharArray())
-		{
-			dialogueTextBlack.text += letter;
+    IEnumerator TypeSentence(string sentence)
+    {
+        dialogueTextBlack.text = " ";
+        dialogueTextWhite.text = " ";
+        foreach (char letter in sentence.ToCharArray())
+        {
+            dialogueTextBlack.text += letter;
             dialogueTextWhite.text += letter;
             yield return null;
-		}
-	}
+        }
+    }
 
-	void EndDialogue()
-	{
+    void EndDialogue()
+    {
         dialogueTextBlack.text = "";
         dialogueTextWhite.text = "";
-		animator.SetBool("isOpen", false);
-	}
+        animator.SetBool("isOpen", false);
+    }
 
 }

@@ -12,10 +12,12 @@ public class DialogueTrigger : MonoBehaviour
         if (selectSingleRandomString)
         {
             FindObjectOfType<DialogueManager>().SelectRandom(dialogue);
+            FindObjectOfType<GameStateManager>().incrementMood(dialogue.moodValue);
         }
         else
         {
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+            FindObjectOfType<GameStateManager>().incrementMood(dialogue.moodValue);
         }
 
     }
