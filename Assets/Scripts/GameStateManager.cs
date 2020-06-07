@@ -11,8 +11,6 @@ public class GameStateManager : MonoBehaviour
 
     [SerializeField] private Dialogue openingText;
     [SerializeField] private DialogueManager dialogueManager;
-    [SerializeField] private Dialogue newDayDialogue;
-    [SerializeField] private Dialogue endGameDialogue;
     [SerializeField] private GameObject moodCanvas;
     [SerializeField] private Text dayTextWhite;
     [SerializeField] private Text dayTextBlack;
@@ -23,7 +21,8 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] private static int UPPER_MOOD_THRESHOLD = 100;
     [SerializeField] private static int LOWER_MOOD_THRESHOLD = 0;
 
-    [SerializeField] private static int START_OF_DAY = 8; // 8 am Military time
+    [SerializeField] private static int STARTING_DAY = 1; 
+    [SerializeField] private static int STARTING_TIME = 8; // 8 am Military time
     [SerializeField] private static int END_OF_DAY_THRESHOLD = 20; // 8pm in Military time
 
     private bool gameIsActive;
@@ -40,10 +39,8 @@ public class GameStateManager : MonoBehaviour
     {
         moodScore = STARTING_SCORE;
         moodBar = moodCanvas.GetComponent<MoodBar>();
-        time = 8;
-        Debug.Log(time);
-        day = 1;
-        Debug.Log(day);
+        time = STARTING_TIME;
+        day = STARTING_DAY;
 
         dialogueManager.StartDialogue(openingText);
         displayDay();
@@ -56,9 +53,9 @@ public class GameStateManager : MonoBehaviour
 
     public void incrementMood(int moodValue)
     {
-        if (day < 1)
+        if (day < STARTING_DAY)
         {
-            day = 1;
+            day = STARTING_DAY;
             displayDay();
         }
 
@@ -86,12 +83,13 @@ public class GameStateManager : MonoBehaviour
 
     private void endDay()
     {
+        Dialogue newDayDialogue = new Dialogue();
 
         string endOfDayMessage = "The day has ended! Resetting the day, but keeping the score. >>";
         newDayDialogue.sentences[0] = endOfDayMessage;
         Debug.Log(endOfDayMessage);
         day = day + 1;
-        time = START_OF_DAY;
+        time = STARTING_TIME;
         string newDayMessage = "Day " + day + ". Time is now: " + time + " Score is still: " + moodScore + ">>";
         newDayDialogue.sentences[1] = newDayMessage;
         Debug.Log(newDayMessage);
@@ -133,6 +131,8 @@ public class GameStateManager : MonoBehaviour
     private void endGame(PossibleEndStates endState)
     {
         gameIsActive = false;
+
+        Dialogue endGameDialogue = new Dialogue();
 
         switch (endState)
         {
