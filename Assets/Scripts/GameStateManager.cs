@@ -90,12 +90,12 @@ public class GameStateManager : MonoBehaviour
     private void endDay()
     {
 
-        string endOfDayMessage = "The day has ended! Resetting the day, but keeping the score.";
+        string endOfDayMessage = "The day has ended! Resetting the day, but keeping the score. >>";
         newDayDialogue.sentences[0] = endOfDayMessage;
         Debug.Log(endOfDayMessage);
         day = day + 1;
         time = START_OF_DAY;
-        string newDayMessage = "Day " + day + ". Time is now: " + time + " Score is still: " + moodScore;
+        string newDayMessage = "Day " + day + ". Time is now: " + time + " Score is still: " + moodScore + ">>";
         newDayDialogue.sentences[1] = newDayMessage;
         Debug.Log(newDayMessage);
 
@@ -137,15 +137,15 @@ public class GameStateManager : MonoBehaviour
         {
             case PossibleEndStates.Win:
                 Debug.Log("You won! Resetting score...");
-                endGameDialogue.sentences[0] = "Congratulations you Won!";
-                endGameDialogue.sentences[1] = "You lasted " + day + " days.";
+                endGameDialogue.sentences[0] = "Congratulations you Won! >>";
+                endGameDialogue.sentences[1] = "You lasted " + day + " days. >>";
                 endGameDialogue.sentences[2] = "Your final mood score was " + moodScore + ".";
                 dialogueManager.StartDialogue(endGameDialogue);
                 break;
             case PossibleEndStates.Lose:
                 Debug.Log("Oops, you lose. Resetting score...");
-                endGameDialogue.sentences[0] = "Unfortuallly you Lost!";
-                endGameDialogue.sentences[1] = "You lasted " + day + " days.";
+                endGameDialogue.sentences[0] = "Unfortuallly you Lost! >>";
+                endGameDialogue.sentences[1] = "You lasted " + day + " days. >>";
                 endGameDialogue.sentences[2] = "Your final mood score was " + moodScore + ".";
                 dialogueManager.StartDialogue(endGameDialogue);
                 break;
