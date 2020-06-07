@@ -374,6 +374,7 @@ MonoBehaviour:
   selectSingleRandomString: 1
   dialogue:
     name: Bookcase
+    moodValue: 2
     sentences:
     - "Books are a uniquely portable magic. \u2013 Stephen King\r\n"
     - "No two persons ever read the same book. \u2013 Edmund Wilson"
@@ -411,7 +412,6 @@ MonoBehaviour:
       Gail Carson Levine"
     - "A great book should leave you with many experiences, and slightly exhausted
       at the end. You live several lives while reading. \u2013 William Styron"
-    moodValue: 2
 --- !u!4 &144313431 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 591734724727080927, guid: 2faed84703923ff4e9b3c30272b9a7c6,
@@ -1130,7 +1130,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406326332}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03999976, y: 0.3500001, z: -10}
+  m_LocalPosition: {x: 0.03999964, y: 0.3500001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3896,7 +3896,7 @@ PrefabInstance:
     - target: {fileID: 5228280947667845464, guid: 2e668c2d511216b4394f15c8d1f72a54,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5228280947667845464, guid: 2e668c2d511216b4394f15c8d1f72a54,
         type: 3}
@@ -4504,7 +4504,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109753969}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03999976, y: 0.3500001, z: -10}
+  m_LocalPosition: {x: 0.03999964, y: 0.3500001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 343913138}
@@ -4864,6 +4864,7 @@ MonoBehaviour:
   selectSingleRandomString: 1
   dialogue:
     name: Bookcase
+    moodValue: 2
     sentences:
     - "Books are a uniquely portable magic. \u2013 Stephen King\r\n"
     - "No two persons ever read the same book. \u2013 Edmund Wilson"
@@ -4901,7 +4902,6 @@ MonoBehaviour:
       Gail Carson Levine"
     - "A great book should leave you with many experiences, and slightly exhausted
       at the end. You live several lives while reading. \u2013 William Styron"
-    moodValue: 2
 --- !u!1 &1267520321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7381766522969028722, guid: b4bc359f8de5f7241b9a9da166e23184,
@@ -5653,7 +5653,7 @@ Transform:
   - {fileID: 1536730640}
   - {fileID: 1537092555}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1722551478
 GameObject:
@@ -5947,7 +5947,7 @@ Transform:
   m_Children:
   - {fileID: 701694927}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1905833037
 GameObject:
@@ -6435,7 +6435,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2038500905 stripped
 Transform:
@@ -6741,6 +6741,7 @@ MonoBehaviour:
   selectSingleRandomString: 1
   dialogue:
     name: Bookcase
+    moodValue: 2
     sentences:
     - "Books are a uniquely portable magic. \u2013 Stephen King\r\n"
     - "No two persons ever read the same book. \u2013 Edmund Wilson"
@@ -6778,7 +6779,6 @@ MonoBehaviour:
       Gail Carson Levine"
     - "A great book should leave you with many experiences, and slightly exhausted
       at the end. You live several lives while reading. \u2013 William Styron"
-    moodValue: 2
 --- !u!1001 &53085718132582048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6829,7 +6829,7 @@ PrefabInstance:
     - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
         type: 3}
@@ -6967,7 +6967,7 @@ PrefabInstance:
     - target: {fileID: 240725986744569910, guid: cc7842753116860448eaee07948ff93b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 240725986744569910, guid: cc7842753116860448eaee07948ff93b,
         type: 3}
@@ -7595,7 +7595,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 465, y: 287}
+  m_AnchoredPosition: {x: 300, y: 283}
   m_SizeDelta: {x: 800, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &3588329328991944540
@@ -7614,7 +7614,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 569.1, y: 287}
+  m_AnchoredPosition: {x: 469, y: 283}
   m_SizeDelta: {x: 800, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4094761186473575346
@@ -7764,7 +7764,7 @@ PrefabInstance:
     - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
         type: 3}
@@ -7985,7 +7985,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 467, y: 284.4}
+  m_AnchoredPosition: {x: 302, y: 280}
   m_SizeDelta: {x: 800, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5296095772641144885
@@ -8042,7 +8042,7 @@ Transform:
   m_Children:
   - {fileID: 5296095773921575111}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5296095773119043031
 GameObject:
@@ -8184,7 +8184,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 571.10004, y: 284.4}
+  m_AnchoredPosition: {x: 471, y: 280}
   m_SizeDelta: {x: 800, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5296095773302760811
@@ -8367,7 +8367,7 @@ Transform:
   m_Children:
   - {fileID: 5296095773259896217}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5296095774293360772
 PrefabInstance:
@@ -8445,7 +8445,7 @@ PrefabInstance:
     - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
         type: 3}
@@ -9020,7 +9020,7 @@ PrefabInstance:
     - target: {fileID: 7381766522969028720, guid: b4bc359f8de5f7241b9a9da166e23184,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7381766522969028720, guid: b4bc359f8de5f7241b9a9da166e23184,
         type: 3}
