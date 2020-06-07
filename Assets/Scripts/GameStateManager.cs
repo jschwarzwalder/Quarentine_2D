@@ -12,6 +12,7 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] private Dialogue openingText;
     [SerializeField] private DialogueManager dialogueManager;
     [SerializeField] private GameObject moodCanvas;
+    [SerializeField] private GameObject pauseMenuUI;
     [SerializeField] private Text dayTextWhite;
     [SerializeField] private Text dayTextBlack;
     [SerializeField] private Text timeTextWhite;
@@ -48,6 +49,7 @@ public class GameStateManager : MonoBehaviour
         moodBar.SetMaxMood(UPPER_MOOD_THRESHOLD);
         moodBar.SetMood(moodScore);
         gameIsActive = true;
+        pauseMenuUI.SetActive(false);
 
     }
 
@@ -164,16 +166,73 @@ public class GameStateManager : MonoBehaviour
 
     }
 
-    private void resetScore()
+    public void resetScore()
     {
+
+        Dialogue restartGameDialogue = new Dialogue();
+        string[] restartSentences = new string[4];
+
+        restartSentences[0] = "Restarting from Day 1.";
+        restartSentences[1] = "You lasted " + day + " days. >>";
+        restartSentences[2] = "Your mood score was " + moodScore + ".";
+
         moodScore = STARTING_SCORE;
-        day = 0;
+        day = STARTING_DAY;
+        time = STARTING_TIME;
         Debug.Log("Score updated to: " + moodScore);
+        restartSentences[2] = "Score reset to " + moodScore + ".";
+        gameIsActive = true;
+
+
+        restartGameDialogue.sentences = restartSentences;
+        dialogueManager.StartDialogue(restartGameDialogue);
+        pauseMenuUI.SetActive(false);
     }
 
     public bool isGameActive()
     {
         return gameIsActive;
+    }
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("Escape Pressed");
+            if (gameIsActive)
+            {
+                gameIsActive = false;
+            } else
+            {
+                Resume();
+            }
+
+            if (gameIsActive != true)
+            {
+                Pause();
+            }
+        }
+
+        
+    }
+
+    public void Resume()
+    {
+        Debug.Log("Game Resumed");
+        pauseMenuUI.SetActive(false);
+        gameIsActive = true;
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    void Pause()
+    {
+        Debug.Log("Game Paused");
+            pauseMenuUI.SetActive(true);
+        gameIsActive = false;
     }
 
 }
