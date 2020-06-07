@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5987818142220693432}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.235846, y: -2.0641842, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -265,6 +265,7 @@ MonoBehaviour:
   selectSingleRandomString: 1
   dialogue:
     name: 
+    moodValue: -5
     sentences:
     - You play Minecraft with friends
     - You play Fortnite with friends
@@ -274,24 +275,23 @@ MonoBehaviour:
     - You reseach charities and donate money to a worthy cause.
     - You watch Cat Videos
     - You watch YouTube
-    - You check twitter
+    - You check Twitter
     - You have a video call with family
     - You have a video call with former coworkers
-    - You have email from family about the latest news
+    - You read email from your parents about the latest news
     - You have a video call with family
-    - You have a video call with doctor
+    - You have a video call with your doctor
     - You  check Instagram
-    - You  check apply for unemployment
+    - You  apply for unemployment
     - You pay your bills online
-    - You get an email from your landlord
+    - 'You get an email from your landlord: rent is due'
     - You apply for jobs
     - You sign up for online learning
-    - You  check Reddit
+    - You check Reddit
     - You order groceries online
-    - You  order stuff from Amazon
-    - You  check your bank account
-    - You  read about the Illness online
-    moodValue: -5
+    - You order something you didn't actually need from Amazon
+    - You check your bank account
+    - You read about the Illness online
 --- !u!1 &5987818143427737557
 GameObject:
   m_ObjectHideFlags: 0

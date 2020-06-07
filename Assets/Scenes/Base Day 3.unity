@@ -1130,7 +1130,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406326332}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03999964, y: 0.3500001, z: -10}
+  m_LocalPosition: {x: 0.03999976, y: 0.3500001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4504,7 +4504,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109753969}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03999964, y: 0.3500001, z: -10}
+  m_LocalPosition: {x: 0.03999976, y: 0.3500001, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 343913138}
@@ -4866,42 +4866,44 @@ MonoBehaviour:
     name: Bookcase
     moodValue: 2
     sentences:
-    - "Books are a uniquely portable magic. \u2013 Stephen King\r\n"
-    - "No two persons ever read the same book. \u2013 Edmund Wilson"
-    - "Whenever you read a good book, somewhere in the world a door opens to allow
-      in more light. \u2013 Vera Nazarian"
-    - "Reading gives us someplace to go when we have to stay where we are. \u2013
+    - "\"Books are a uniquely portable magic.\" \u2013 Stephen King\r\n"
+    - "\"No two persons ever read the same book.\" \u2013 Edmund Wilson"
+    - "\"Whenever you read a good book, somewhere in the world a door opens to allow
+      in more light\". \u2013 Vera Nazarian"
+    - "\"Reading gives us someplace to go when we have to stay where we are.\" \u2013
       Mason Cooley"
-    - "Anyone who says they have only one life to live must not know how to read
-      a book. \u2013 Author Unknown"
-    - "There is no friend as loyal as a book. \u2013 Ernest Hemingway"
-    - "You can\u2019t buy happiness, but you can buy books and that\u2019s kind of
-      the same thing. \u2013 Author Unknown"
-    - "If you only read the books that everyone else is reading, you can only think
-      what everyone else is thinking. \u2013 Haruki Murakami"
-    - "A good novel tells us the truth about its hero; but a bad novel tells us the
-      truth about its author. \r\n\u2013 Gilbert K. Chesterton\r\n"
-    - "A book is a dream that you hold in your hand. \u2013 Neil Gaiman"
-    - "Any book that helps a child to form a habit of reading, to make reading one
-      of his deep and continuing needs, is good for him. \u2013 Maya Angelou"
-    - "Great books help you understand, and they help you feel understood. \u2013
+    - "\"Anyone who says they have only one life to live must not know how to read
+      a book.\" \u2013 Author Unknown"
+    - "\"There is no friend as loyal as a book.\" \u2013 Ernest Hemingway"
+    - "\"You can\u2019t buy happiness, but you can buy books and that\u2019s kind
+      of the same thing.\" \u2013 Author Unknown"
+    - "\"If you only read the books that everyone else is reading, you can only think
+      what everyone else is thinking.\" \u2013 Haruki Murakami"
+    - "\"A good novel tells us the truth about its hero; but a bad novel tells us
+      the truth about its author. \"\r\n\u2013 Gilbert K. Chesterton\r\n"
+    - "\"A book is a dream that you hold in your hand.\" \u2013 Neil Gaiman"
+    - "\"Any book that helps a child to form a habit of reading, to make reading
+      one of his deep and continuing needs, is good for him.\" \u2013 Maya Angelou"
+    - "\"Great books help you understand, and they help you feel understood.\" \u2013
       John Green"
-    - "A book is a version of the world. If you do not like it, ignore it or offer
-      your own version in return. \u2013 Salman Rushdie"
-    - "We lose ourselves in books. We find ourselves there too. \u2013 Author Unknown"
-    - "It is what you read when you don\u2019t have to that determines what you will
-      be when you can\u2019t help it. \u2013 Oscar Wilde"
-    - "So many books, so little time. \u2013 Frank Zappa"
-    - "Between the pages of a book is a wonderful place to be. \u2013 Author Unknown"
-    - "A book is the only place in which you can examine a fragile thought without
-      breaking it. \u2013 Edward P. Morgan"
-    - "The only important thing in a book is the meaning that it has for you. \u2013
-      W. Somerset Maugham"
-    - "Reading a book is like re-writing it for yourself. \u2013 Angela Carter"
-    - "There\u2019s nothing wrong with reading a book you love over and over. \u2013
-      Gail Carson Levine"
-    - "A great book should leave you with many experiences, and slightly exhausted
-      at the end. You live several lives while reading. \u2013 William Styron"
+    - "\"A book is a version of the world. If you do not like it, ignore it or offer
+      your own version in return.\" \u2013 Salman Rushdie"
+    - "\"We lose ourselves in books. We find ourselves there too.\" \u2013 Author
+      Unknown"
+    - "\"It is what you read when you don\u2019t have to that determines what you
+      will be when you can\u2019t help it.\" \u2013 Oscar Wilde"
+    - "\"So many books, so little time.\" \u2013 Frank Zappa"
+    - "\"Between the pages of a book is a wonderful place to be.\" \u2013 Author
+      Unknown"
+    - "\"A book is the only place in which you can examine a fragile thought without
+      breaking it.\" \u2013 Edward P. Morgan"
+    - "\"The only important thing in a book is the meaning that it has for you.\"
+      \u2013 W. Somerset Maugham"
+    - "\"Reading a book is like re-writing it for yourself.\" \u2013 Angela Carter"
+    - "\"There\u2019s nothing wrong with reading a book you love over and over.\"
+      \u2013 Gail Carson Levine"
+    - "\"A great book should leave you with many experiences, and slightly exhausted
+      at the end. You live several lives while reading.\" \u2013 William Styron"
 --- !u!1 &1267520321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7381766522969028722, guid: b4bc359f8de5f7241b9a9da166e23184,
@@ -8394,7 +8396,7 @@ PrefabInstance:
     - target: {fileID: 4545488577655162827, guid: 5920f2a11fe476546a6ff86fa3b39546,
         type: 3}
       propertyPath: m_Text
-      value: Click on Item to Interact
+      value: Click on an Item to Interact
       objectReference: {fileID: 0}
     - target: {fileID: 4545488577655162827, guid: 5920f2a11fe476546a6ff86fa3b39546,
         type: 3}
@@ -8515,7 +8517,7 @@ PrefabInstance:
     - target: {fileID: 5296095774119475721, guid: 5920f2a11fe476546a6ff86fa3b39546,
         type: 3}
       propertyPath: m_Text
-      value: Click on Item to Interact
+      value: Click on an Item to Interact
       objectReference: {fileID: 0}
     - target: {fileID: 5296095774119475721, guid: 5920f2a11fe476546a6ff86fa3b39546,
         type: 3}
@@ -8913,6 +8915,101 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1646904059}
     m_Modifications:
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: '[News Headline] "More Cases of Illness Found in Local Community"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: '[News Headline]  "Governor Says Lockdown Will Extend Another 2 weeks"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: You Binge Watch another episode of your favorite show
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: You watch a crappy reality TV episode
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: '[News Headline] "Another Black Man killed by Police"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: '[News Headline] "The President Advocates for Citizens to Drink Bleach"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: '[News Headline] "Asian American Couple Attacked by Angry Illness Victim
+        Relative"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: '[News Headline] "President Caught Without an American Flag Lapel Pin"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[8]
+      value: '[News Headline] "Beloved Local Business Closed Indefinitely"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[9]
+      value: '[News Headline] "Family Owned Restaurant Serves its Last Meal"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[10]
+      value: '[News Headline] "Sales down 75% for Independant Store"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[11]
+      value: '[News Headline] "Unemployment Numbers Soar"
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[12]
+      value: '[News Headline] "Local Restaurant Shifts to Carry Out Strategy"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[13]
+      value: '[News Headline] "Outbreak in Meat Facility Leads to Meat Shortage"
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[14]
+      value: '[News Headline] "Farmers Dumping Milk as Families Go Hungry"'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[15]
+      value: '[News Headline] "Local Schools Transition to Online Learning."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[16]
+      value: '[News Headline] "Essential workers must choose between health and homelessness."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927756410218138310, guid: 63a92b87c6938a9439606ffcc0aa7174,
+        type: 3}
+      propertyPath: dialogue.sentences.Array.data[17]
+      value: '[News Headline] "Spike in cases of illness in Spain."'
+      objectReference: {fileID: 0}
     - target: {fileID: 6927756410318400402, guid: 63a92b87c6938a9439606ffcc0aa7174,
         type: 3}
       propertyPath: m_LocalPosition.x
