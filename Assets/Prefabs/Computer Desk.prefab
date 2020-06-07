@@ -263,6 +263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectSingleRandomString: 1
+  maxInteractionsPerDay: 24
   dialogue:
     name: 
     moodValue: -5

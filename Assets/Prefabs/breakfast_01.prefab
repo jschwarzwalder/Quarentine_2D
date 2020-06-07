@@ -122,11 +122,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectSingleRandomString: 1
+  maxInteractionsPerDay: 1
   dialogue:
     name: 
+    moodValue: 2
     sentences:
     - "You eat Ham and Eggs for Breakfast\t"
     - You eat Egg Omlet for breakfast
     - You eat French Toast for breakfast
     - You eat Sausage and eggs for breakfast
-    moodValue: 2

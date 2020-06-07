@@ -96,14 +96,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectSingleRandomString: 1
+  maxInteractionsPerDay: 9
   dialogue:
     name: 
+    moodValue: 1
     sentences:
     - 'You toast a piece of bread
 
 '
     - You toast a bagel
-    moodValue: 1
 --- !u!61 &1677274365965899541
 BoxCollider2D:
   m_ObjectHideFlags: 0

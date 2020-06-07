@@ -164,8 +164,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectSingleRandomString: 1
+  maxInteractionsPerDay: 4
   dialogue:
     name: Sleepy Cat
+    moodValue: 5
     sentences:
     - ZZZzzzz.....
     - "Purr\u2026."
@@ -197,4 +199,3 @@ MonoBehaviour:
     - Prrrrrrrr
     - Prrrrrrrr
     - Prrrrrrrr
-    moodValue: 5

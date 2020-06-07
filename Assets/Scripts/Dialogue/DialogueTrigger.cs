@@ -2,11 +2,13 @@
 
 public class DialogueTrigger : MonoBehaviour
 {
-    public bool selectSingleRandomString;
-    public Dialogue dialogue;
+    [SerializeField] private bool selectSingleRandomString;
+    [SerializeField] private int maxInteractionsPerDay;
+    [SerializeField] private Dialogue dialogue;
 
     private DialogueManager dialogueManager;
     private GameStateManager gameStateManager;
+    private int interactionToday;
 
     void Start()
     {
@@ -24,6 +26,8 @@ public class DialogueTrigger : MonoBehaviour
         {
             dialogueManager.SelectRandom(dialogue);
             gameStateManager.incrementMood(dialogue.moodValue);
+            
+
         }
         else
         {
@@ -38,9 +42,18 @@ public class DialogueTrigger : MonoBehaviour
 
         if (gameStateManager.isGameActive())
         {
-            triggerDialogue();
+            if (interactionToday < maxInteractionsPerDay)
+            {
+                interactionToday += 1;
+                triggerDialogue();
+            }
         }
         
+    }
+
+    public void resetDay()
+    {
+        interactionToday = 0;
     }
 
 }

@@ -368,6 +368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectSingleRandomString: 0
+  maxInteractionsPerDay: 9
   dialogue:
     name: CuttingBoard
     moodValue: -1

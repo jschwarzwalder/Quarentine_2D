@@ -13,6 +13,10 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] private DialogueManager dialogueManager;
     [SerializeField] private GameObject moodCanvas;
     [SerializeField] private GameObject pauseMenuUI;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip neutralMusic;
+    [SerializeField] private AudioClip lowMoodMusic;
+    [SerializeField] private AudioClip EndOfDayChime;
     [SerializeField] private Text dayTextWhite;
     [SerializeField] private Text dayTextBlack;
     [SerializeField] private Text timeTextWhite;
@@ -21,6 +25,7 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] private static int STARTING_SCORE = 50;
     [SerializeField] private static int UPPER_MOOD_THRESHOLD = 100;
     [SerializeField] private static int LOWER_MOOD_THRESHOLD = 0;
+    [SerializeField] private static int AUDIO_VOLUME = 75;
 
     [SerializeField] private static int STARTING_DAY = 1;
     [SerializeField] private static int STARTING_TIME = 8; // 8 am Military time
@@ -50,6 +55,8 @@ public class GameStateManager : MonoBehaviour
         moodBar.SetMood(moodScore);
         gameIsActive = true;
         pauseMenuUI.SetActive(false);
+        audioSource.clip = neutralMusic;
+        audioSource.volume = AUDIO_VOLUME;
 
     }
 
@@ -75,10 +82,19 @@ public class GameStateManager : MonoBehaviour
         if (moodScore >= UPPER_MOOD_THRESHOLD)
         {
             endGame(PossibleEndStates.Win);
+            audioSource.volume = audioSource.volume / 50;
         }
         else if (moodScore <= LOWER_MOOD_THRESHOLD)
         {
             endGame(PossibleEndStates.Lose);
+            audioSource.volume = audioSource.volume / 50;
+        }
+        else if(moodScore < 50) 
+        {
+            audioSource.clip = lowMoodMusic;
+        } else
+        {
+            audioSource.clip =neutralMusic;
         }
 
     }
@@ -101,6 +117,8 @@ public class GameStateManager : MonoBehaviour
         newDayDialogue.sentences = endDaySentences;
         dialogueManager.StartDialogue(newDayDialogue);
         displayDay();
+
+        resetDailyInteractions();
     }
 
     private void displayDay()
@@ -132,6 +150,15 @@ public class GameStateManager : MonoBehaviour
             timeTextBlack.text = time + " am";
         }
 
+    }
+
+    private void resetDailyInteractions()
+    {
+        DialogueTrigger[] interactables = Object.FindObjectsOfType<DialogueTrigger>();
+        foreach (DialogueTrigger interactable in interactables)
+        {
+            interactable.resetDay();
+        }
     }
 
     private void endGame(PossibleEndStates endState)
@@ -187,6 +214,10 @@ public class GameStateManager : MonoBehaviour
         restartGameDialogue.sentences = restartSentences;
         dialogueManager.StartDialogue(restartGameDialogue);
         pauseMenuUI.SetActive(false);
+        resetDailyInteractions();
+
+        audioSource.clip = neutralMusic;
+        audioSource.volume = AUDIO_VOLUME;
     }
 
     public bool isGameActive()
@@ -196,13 +227,14 @@ public class GameStateManager : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             Debug.Log("Escape Pressed");
             if (gameIsActive)
             {
                 gameIsActive = false;
-            } else
+            }
+            else
             {
                 Resume();
             }
@@ -213,7 +245,7 @@ public class GameStateManager : MonoBehaviour
             }
         }
 
-        
+
     }
 
     public void Resume()
@@ -231,7 +263,7 @@ public class GameStateManager : MonoBehaviour
     void Pause()
     {
         Debug.Log("Game Paused");
-            pauseMenuUI.SetActive(true);
+        pauseMenuUI.SetActive(true);
         gameIsActive = false;
     }
 

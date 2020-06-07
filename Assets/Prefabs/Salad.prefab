@@ -122,8 +122,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectSingleRandomString: 0
+  maxInteractionsPerDay: 1
   dialogue:
     name: 
+    moodValue: 3
     sentences:
     - You eat a salad
-    moodValue: 3

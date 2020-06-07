@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectSingleRandomString: 1
+  maxInteractionsPerDay: 9
   dialogue:
     name: Exercise
     moodValue: 5

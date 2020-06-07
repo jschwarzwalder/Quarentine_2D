@@ -237,8 +237,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectSingleRandomString: 1
+  maxInteractionsPerDay: 9
   dialogue:
     name: Bookcase
+    moodValue: 2
     sentences:
     - "Books are a uniquely portable magic. \u2013 Stephen King\r\n"
     - "No two persons ever read the same book. \u2013 Edmund Wilson"
@@ -276,4 +278,3 @@ MonoBehaviour:
       Gail Carson Levine"
     - "A great book should leave you with many experiences, and slightly exhausted
       at the end. You live several lives while reading. \u2013 William Styron"
-    moodValue: 2
