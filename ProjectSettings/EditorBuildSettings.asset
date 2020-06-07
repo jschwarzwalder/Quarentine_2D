@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/End of Jam.unity
+    guid: c6018faf9ac21b64d8b89c30dec51719
   m_configObjects: {}

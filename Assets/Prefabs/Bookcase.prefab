@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectSingleRandomString: 1
-  maxInteractionsPerDay: 9
+  maxInteractionsPerDay: 7
   dialogue:
     name: Bookcase
     moodValue: 2

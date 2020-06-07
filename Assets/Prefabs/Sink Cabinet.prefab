@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectSingleRandomString: 1
-  maxInteractionsPerDay: 9
+  maxInteractionsPerDay: 4
   dialogue:
     name: Sink
     moodValue: 5
