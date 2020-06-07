@@ -122,9 +122,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectSingleRandomString: 0
+  selectSingleRandomString: 1
   dialogue:
     name: Sink
+    moodValue: 5
     sentences:
     - You wash your hands
     - You wash your hands ... It feels good
@@ -136,7 +137,6 @@ MonoBehaviour:
     - You wash your hands
     - You wash your hands
     - You wash your hands
-    moodValue: 5
 --- !u!1 &591734725214524842
 GameObject:
   m_ObjectHideFlags: 0

@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5351357321777453714}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.70584655, y: -5.285816, z: 3.7617188}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -99,19 +99,19 @@ MonoBehaviour:
   selectSingleRandomString: 1
   dialogue:
     name: Exercise
+    moodValue: 5
     sentences:
-    - You do Yoga Sun Salutation
+    - 'You do Yoga: Sun Salutation'
     - You do Restorative Yoga
     - You do Calisthenics
-    - You do  Jumping Jacks
-    - You do TikTok Dance Challenge
+    - You do Jumping Jacks
+    - You do a TikTok Dance Challenge
     - You do a short circuit workout
     - You do Tai Chi
     - You do Streches
-    - You life your Cat and Canned Food as weights
+    - You lift your Cat and dome Canned Food as weights
     - You play Dance Dance Revolution
     - You do some push ups
-    moodValue: 1
 --- !u!61 &5351357321777453710
 BoxCollider2D:
   m_ObjectHideFlags: 0

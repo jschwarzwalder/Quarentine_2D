@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6231613593452930131}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -12.964153, y: -0.365816, z: 3.7617188}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
@@ -98,6 +98,7 @@ MonoBehaviour:
   selectSingleRandomString: 1
   dialogue:
     name: 
+    moodValue: 1
     sentences:
     - "You Boil Water for Instant Mashed Potatoes\t"
     - "You make Beef Stew\t"
@@ -105,10 +106,9 @@ MonoBehaviour:
     - You make  Risotto
     - "You make Vegetable Soup\t"
     - You make Spagetti
-    - Player makes Lentils
-    - You make  Chicken Soup
+    - You make Lentils
+    - You make Chicken Soup
     - You make homemade soap
-    moodValue: 1
 --- !u!61 &6231613593452930142
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6927756410318400404}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.15, y: 3.44, z: 3.7617188}
   m_LocalScale: {x: 5, y: 5, z: 4}
   m_Children:
@@ -125,101 +125,99 @@ MonoBehaviour:
   selectSingleRandomString: 1
   dialogue:
     name: Television
-    sentences:
-    - News Headline - More Cases of Illness Found in Local Community
-    - News Headline - Governor Says Lockdown will extend another 2 weeks
-    - 'Binge Watch another episode of #1 Netflix Show '
-    - Watch Crappy Reality TV episode
-    - News Headline - Another Black Man killed by Police
-    - News Headline - President advocates for citizens to drink bleach
-    - News Headline - Asian American couple attacked by man
-    - News Headline - President caught without an American Flag Lapel pin
-    - News Headline - Beloved Local Business closed indefinitely
-    - News Headline - Family Owned Resteraunt serves its very last meal
-    - News Headline - Sales down 90% for independant store
-    - 'News Headline - Unemployment numbers soar
-
-'
-    - News Headline - Local Restearaunt shifts to Carry out model
-    - 'News Headline - Outbreak in Meat facility leads to Meat Shortage
-
-'
-    - "News Headline - Farmers dumping Milk as family\u2019s go hungry"
-    - News Headline - Local Schools cancel all in person classes. Transition to online
-      learning.
-    - News Headline - Essential workers must choose between health and homelessness.
-    - News Headline - Spike in cases of illness in Spain.
-    - News Headline - Doctor who first diagnosed and reported Illness has now died.
-    - News Headline - Police pepper spray 9 year old girl in face while she was playing
-      on her front lawn to force her to go back inside.
-    - News Headline - Factories in China close which causes delay in shipment of
-      newest iPhone.
-    - News Headline - Actor has Illness, show production must shut down
-    - 'News Headline - Movie released online while theaters closed,  breaks viewing
-      record. '
-    - News Headline - Netflix releases 5 more TV shows
-    - 'News Headline - Local family draws Monopoly board on their sidewalk with chalk
-      for neighbors to play.
-
-'
-    - 'News Headline - Local Neighboorhood organizes a Stuffed Animal Zoo in the
-      front lawn for local kids to get out of the house. '
-    - 'News Headline - Number of new cases of Illness drop in South Korea as they
-      use Contact tracing to isolate the infected. '
-    - News Headline - Musicians host free online concerts
-    - News Headline - Chicago man runs into knife 10 times
-    - 'News Headline - Number of domestic abuse cases increase during stay at home
-      orders. '
-    - News Headline - Police mistake box of kittens for bomb.
-    - News Headline - Millennials destroy fur industry as they refuse to order fur
-      coats online.
-    - News Headline - Preacher refuses to cancel church services this Sunday despite
-      stay at home orders.
-    - News Headline - Nursing Home had an outbreak of STDs
-    - News Headline - Nursing Home has outbreak of Illness. 2 Dead.
-    - 'News Headline - Local Church moves church services online
-
-'
-    - News Headline - Straight Pride Parade scheduled for same time and place as
-      Gay Pride Parade
-    - News Headline - Trolls distrubt Live Stream of Children's Story Time.
-    - News Headline - Fight breaks out at local grocery store over Toilet Paper
-    - News Headline - Dolphin spotted in Venice canals
-    - News Headline - Daily carbon emissions plunged 17% during global social distancing.
-    - News Headline - Italians have balcony concerts while social distancing
-    - News Headline - German club holds drive-in rave
-    - 'News Headline - Portland strip club offers drive through service '
-    - News Headline - Nurses work with out PPE equipment
-    - News Headline - Local Sewing club donates 1,000 masks
-    - News Headline - Woman died in hospital when no ventilators were available
-    - News Headline - Mother separated from newborn for 14 days after testing positive
-      for Illness during labor
-    - News Headline - Disney+ down for 11 hours when too many people try to stream
-      Star Wars.
-    - News Headline - First private manned spaceflight delayed due to weather
-    - 'News Headline - President asks a Marine to hold Umbrella over his head during
-      an afternoon rain. '
-    - News Headline - Tax Payers Outraged. The President and First Lady went out
-      to dinner and saw a Broadway show on their date night.
-    - News Headline - President bows to Saudia Arabrian Prince during handshake.
-    - News Headline - President orders Cheese Burger with Dijon Mustard and no Ketchup
-    - News Headline - NBA Season Canceld due to Illness
-    - News Headline - State sees more than 1,250 new illness cases
-    - News Headline - Japan's Illness Numbers are low. Are Masks the Reason?
-    - 'News Headline - Grocery Supplies run low on essentials as more Americans begin
-      to cook rather than eat out. '
-    - News Headline - 2 Police Officers Charged in shoving 75-Year-Old Demonstrator
-    - News Headline - Woman kicked out of Resteraunt for refusing to wear a mask.
-    - News Headline - Black teens kicked out of Grocery Store for wearing a Mask.
-    - News Headline - Police beat Black Teen for wearing a Face Mask and Hoodie
-    - 'News Headline - Woman calls police on Black man who asked her to put a leash
-      on her dog. '
-    - 'News Headline - Black Nursing Student killed  by Police Officer during traffic
-      stop. '
-    - News Headline - Black Teen shot and killed while jogging in neighboorhood
-    - News Headline - Penguins visit local aquarium with handlers
-    - News Headline - Endangered Pandas start to mate when zoo is closed to the public.
     moodValue: -10
+    sentences:
+    - '[News Headline] "More Cases of Illness Found in Local Community"'
+    - '[News Headline]  "Governor Says Lockdown Will Extend Another 2 weeks"'
+    - You Binge Watch another episode of your favorite show
+    - You watch a crappy reality TV episode
+    - '[News Headline] "Another Black Man killed by Police"'
+    - '[News Headline] "The President Advocates for Citizens to Drink Bleach"'
+    - '[News Headline] "Asian American Couple Attacked by Angry Illness Victim Relative"'
+    - '[News Headline] "President Caught Without an American Flag Lapel Pin"'
+    - '[News Headline] "Beloved Local Business Closed Indefinitely"'
+    - '[News Headline] "Family Owned Restaurant Serves its Last Meal"'
+    - '[News Headline] "Sales down 75% for Independant Store"'
+    - '[News Headline] "Unemployment Numbers Soar"
+
+'
+    - '[News Headline] "Local Restaurant Shifts to Carry Out Strategy"'
+    - '[News Headline] "Outbreak in Meat Facility Leads to Meat Shortage"
+
+'
+    - '[News Headline] "Farmers Dumping Milk as Families Go Hungry"'
+    - '[News Headline] "Local Schools Transition to Online Learning."'
+    - '[News Headline] "Essential Workers Must Choose Between Health and Homelessness."'
+    - '[News Headline] "The Number of Illness Cases in Spain Spike."'
+    - '[News Headline] "The Doctor Who First Reported the Illness Has Died."'
+    - '[News Headline] "Police Shoot Citizen With Rubber Bullets To Enforce Stay
+      in Place Order"'
+    - '[News Headline] "Factories in China Close, Causing Delay in Shipment of Newest
+      iPhone."'
+    - '[News Headline] "Actor Contracts Illness, Forcing Broadway Production to Shut
+      Down"'
+    - '[News Headline] "Movie Released Online While Theaters Are Closed, Breaks Viewing
+      Record. "'
+    - '[News Headline] "Netflix Releases 5 More TV Shows"'
+    - '[News Headline] "Local Family Draws Monopoly Board on Their Sidewalk to Play
+      With Neighbors."
+
+'
+    - '[News Headline] "Local Neighboorhood Organizes a Stuffed Animal Zoo in their
+      Front Lawns For Kids." '
+    - '[News Headline] "Number of New Cases of Illness Drop in South Korea as They
+      Use Contact Tracing to Isolate the Infected."'
+    - '[News Headline] "Musicians Host Free Online Concerts"'
+    - '[News Headline] "Chicago Man Runs Into Knife 10 times"'
+    - '[News Headline] "Number of Domestic Abuse Cases increase during stay at home
+      orders"'
+    - '[News Headline] "Police mistake box of kittens for bomb."'
+    - '[News Headline] "Fur Industry Tanks as Millennials Refuse to Purchase Their
+      Products"'
+    - '[News Headline] "Preacher refuses to cancel church services despite stay at
+      home orders."'
+    - '[News Headline] "Nursing Home had an outbreak of STDs"'
+    - '[News Headline] "Nursing Home Has Illness Outbreak. 2 Dead."'
+    - '[News Headline] "Local Church moves church services online"'
+    - '[News Headline] "Straight Pride Parade scheduled for same time and place as
+      Gay Pride Parade"'
+    - '[News Headline] "Trolls distrupt Live Stream of Children''s Story Time."'
+    - '[News Headline] "Fight breaks out at local grocery store over Toilet Paper"'
+    - '[News Headline] "Dolphin spotted in Venice canals"'
+    - '[News Headline] "Daily carbon emissions plunged 17% during global social distancing."'
+    - '[News Headline] "Italians have balcony concerts while social distancing"'
+    - '[News Headline] "German club holds drive-in rave"'
+    - '[News Headline] "Portland strip club offers drive through service "'
+    - '[News Headline] "Nurses work with out PPE equipment due to shortage"'
+    - '[News Headline] "Local Sewing club donates 1,000 masks"'
+    - '[News Headline] "Woman died in hospital where no ventilators were available"'
+    - '[News Headline] "Mother separated from newborn for 14 days after testing positive
+      for Illness"'
+    - '[News Headline] "Disney+ down for 11 hours when too many people try to stream
+      Star Wars."'
+    - '[News Headline] "First private manned spaceflight delayed due to weather"'
+    - '[News Headline] "President asks a Marine to hold Umbrella over his head during
+      an afternoon rain. "'
+    - '[News Headline] "Tax Payers Outraged. The President and First Lady went out
+      to dinner and saw a Broadway show."'
+    - '[News Headline] President bows to Saudia Arabrian Prince during handshake.'
+    - '[News Headline] President orders Cheese Burger with Dijon Mustard and no Ketchup'
+    - '[News Headline] NBA Season Canceled due to Illness'
+    - '[News Headline] State sees more than 1,250 new illness cases'
+    - '[News Headline] Japan''s Illness Numbers are low. Are Masks the Reason?'
+    - '[News Headline] Grocery Supplies run low as Americans cook more'
+    - '[News Headline] 2 Police Officers Charged in shoving 75-Year-Old Demonstrator'
+    - '[News Headline] Woman kicked out of Resteraunt for refusing to wear a mask.'
+    - '[News Headline] Black teens kicked out of Grocery Store for wearing a Mask.'
+    - '[News Headline] Police beat Black Teen for wearing a Face Mask and Hoodie'
+    - '[News Headline ] Woman calls police on Black man who asked her to put a leash
+      on her dog. '
+    - '[News Headline] Black Nursing Student killed by Police Officer during traffic
+      stop. '
+    - '[News Headline] Black Teen shot and killed while jogging in his neighboorhood'
+    - '[News Headline] Penguins visit local aquarium with handlers'
+    - '[News Headline] Endangered Pandas start to mate when zoo is closed to the
+      public.'
 --- !u!1 &6927756410394643173
 GameObject:
   m_ObjectHideFlags: 0

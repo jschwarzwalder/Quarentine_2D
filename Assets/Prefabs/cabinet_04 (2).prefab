@@ -370,9 +370,9 @@ MonoBehaviour:
   selectSingleRandomString: 0
   dialogue:
     name: CuttingBoard
+    moodValue: -1
     sentences:
     - You dice a potato
-    - You dice a tomatos
-    - You dice a onions
-    - You mince a garlic
-    moodValue: -1
+    - You dice a tomato
+    - You dice onions
+    - You mince some garlic
