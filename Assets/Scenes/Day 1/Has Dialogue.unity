@@ -133,90 +133,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 52252056210171665}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &37478503
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5296095772323564213, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_Name
-      value: DialogueDisplayBox
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.0926
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 75
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -10.302273
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296095773668482981, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5296095774026741111, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 282518956}
-    - target: {fileID: 5296095774026741111, guid: 5920f2a11fe476546a6ff86fa3b39546,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DisplayNextSentence
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5920f2a11fe476546a6ff86fa3b39546, type: 3}
 --- !u!1 &58492461
 GameObject:
   m_ObjectHideFlags: 0
@@ -243,11 +159,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 58492461}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.25, y: -0.9200001, z: 3.7617188}
+  m_LocalPosition: {x: 10.25, y: -0.9200001, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 1926925503}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &58492463
 BoxCollider2D:
@@ -256,7 +172,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 58492461}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -326,6 +242,121 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &67698264 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 52252056243828762, guid: ed99a69c0535ce943868ec43f2e62837,
+    type: 3}
+  m_PrefabInstance: {fileID: 52252056210171665}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &67698265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67698264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: Television
+    sentences:
+    - News Headline - More Cases of Illness Found in Local Community
+    - News Headline - Governor Says Lockdown will extend another 2 weeks
+    - 'Binge Watch another episode of #1 Netflix Show '
+    - Watch Crappy Reality TV episode
+    - News Headline - Another Black Man killed by Police
+    - News Headline - President advocates for citizens to drink bleach
+    - News Headline - Asian American couple attacked by man
+    - News Headline - President caught without an American Flag Lapel pin
+    - News Headline - Beloved Local Business closed indefinitely
+    - News Headline - Family Owned Resteraunt serves its very last meal
+    - News Headline - Sales down 90% for independant store
+    - 'News Headline - Unemployment numbers soar
+
+'
+    - News Headline - Local Restearaunt shifts to Carry out model
+    - 'News Headline - Outbreak in Meat facility leads to Meat Shortage
+
+'
+    - "News Headline - Farmers dumping Milk as family\u2019s go hungry"
+    - News Headline - Local Schools cancel all in person classes. Transition to online
+      learning.
+    - News Headline - Essential workers must choose between health and homelessness.
+    - News Headline - Spike in cases of illness in Spain.
+    - News Headline - Doctor who first diagnosed and reported Illness has now died.
+    - News Headline - Police pepper spray 9 year old girl in face while she was playing
+      on her front lawn to force her to go back inside.
+    - News Headline - Factories in China close which causes delay in shipment of
+      newest iPhone.
+    - News Headline - Actor has Illness, show production must shut down
+    - 'News Headline - Movie released online while theaters closed,  breaks viewing
+      record. '
+    - News Headline - Netflix releases 5 more TV shows
+    - 'News Headline - Local family draws Monopoly board on their sidewalk with Chalk
+      for neighbors to play.
+
+'
+    - 'News Headline - Local Neighboorhood organizes a Stuffed Animal Zoo in the
+      front lawn for local kids to get out of the house. '
+    - 'News Headline - Number of new cases of Illness drop in South Korea as they
+      use Contact tracing to isolate the infected. '
+    - News Headline - Musicians host free online concerts
+    - News Headline - Chicago man runs into knife 10 times
+    - 'News Headline - Number of domestic abuse cases increase during stay at home
+      orders. '
+    - News Headline - Police mistake box of kittens for bomb.
+    - News Headline - Millennials destroy fur industry as they refuse to order fur
+      coats online.
+    - News Headline - Preacher refuses to cancel church services this Sunday
+    - News Headline - Nursing Home had an outbreak of STDs
+    - News Headline - Nursing Home has outbreak of Illness. 2 Dead.
+    - 'News Headline - Local Church moves church services online
+
+'
+    - News Headline - Straight Pride Parade scheduled for same time and place as
+      Gay Pride Parade
+    - News Headline - Trolls distrubt Live Stream of Children's Story Time.
+    - News Headline - Fight breaks out at local grocery store over Toilet Paper
+    - News Headline - Dolphin spotted in Venice canals
+    - News Headline - Daily carbon emissions plunged 17% during global social distancing.
+    - News Headline - Italians have balcony concerts while social distancing
+    - News Headline - German club holds drive-in rave
+    - 'News Headline - Portland strip club offers drive through service '
+    - News Headline - Nurses work with out PPE equipment
+    - News Headline - Local Sewing club donates 1,000 masks
+    - News Headline - Woman died in hospital when no ventilators were available
+    - News Headline - Mother separated from newborn for 14 days after testing positive
+      for Illness during labor
+    - News Headline - Disney+ down for 11 hours when too many people try to stream
+      Star Wars.
+    - News Headline - First private manned spaceflight delayed due to weather
+    - 'News Headline - President asks a Marine to hold Umbrella over his head during
+      an afternoon rain. '
+    - News Headline - Tax Payers Outraged. The President and First Lady went out
+      to dinner and saw a Broadway show on their date night.
+    - News Headline - President bows to Saudia Arabrian Prince during handshake.
+    - News Headline - President orders Cheese Burger with Dijon Mustard and no Ketchup
+    - News Headline - NBA Season Canceld due to Illness
+    - News Headline - State sees more than 1,250 new illness cases
+    - News Headline - Japan's Illness Numbers are low. Are Masks the Reason?
+    - 'News Headline - Grocery Supplies run low on essentials as more Americans begin
+      to cook rather than eat out. '
+    - News Headline - 2 Police Officers Charged in shoving 75-Year-Old Demonstrator
+    - News Headline - Woman kicked out of Resteraunt for refusing to wear a mask.
+    - News Headline - Black teens kicked out of Grocery Store for wearing a Mask.
+    - News Headline - Police beat Black Teen for wearing a Face Mask and Hoodie
+    - 'News Headline - Woman calls police on Black man who asked her to put a leash
+      on her dog. '
+    - 'News Headline - Black Nursing Student killed  by Police Officer during traffic
+      stop. '
+    - News Headline - Black Teen shot and killed while jogging in neighboorhood
+    - News Headline - Penguins visit local aquarium with handlers
+    - News Headline - Endangered Pandas start to mate when zoo is closed to the public.
+    moodValue: -10
 --- !u!1001 &92821212
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -443,6 +474,59 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.9812658}
   m_EdgeRadius: 0
+--- !u!114 &92821216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92821214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: Bookcase
+    sentences:
+    - "Books are a uniquely portable magic. \u2013 Stephen King\r\n"
+    - "No two persons ever read the same book. \u2013 Edmund Wilson"
+    - "Whenever you read a good book, somewhere in the world a door opens to allow
+      in more light. \u2013 Vera Nazarian"
+    - "Reading gives us someplace to go when we have to stay where we are. \u2013
+      Mason Cooley"
+    - "Anyone who says they have only one life to live must not know how to read
+      a book. \u2013 Author Unknown"
+    - "There is no friend as loyal as a book. \u2013 Ernest Hemingway"
+    - "You can\u2019t buy happiness, but you can buy books and that\u2019s kind of
+      the same thing. \u2013 Author Unknown"
+    - "If you only read the books that everyone else is reading, you can only think
+      what everyone else is thinking. \u2013 Haruki Murakami"
+    - "A good novel tells us the truth about its hero; but a bad novel tells us the
+      truth about its author. \r\n\u2013 Gilbert K. Chesterton\r\n"
+    - "A book is a dream that you hold in your hand. \u2013 Neil Gaiman"
+    - "Any book that helps a child to form a habit of reading, to make reading one
+      of his deep and continuing needs, is good for him. \u2013 Maya Angelou"
+    - "Great books help you understand, and they help you feel understood. \u2013
+      John Green"
+    - "A book is a version of the world. If you do not like it, ignore it or offer
+      your own version in return. \u2013 Salman Rushdie"
+    - "We lose ourselves in books. We find ourselves there too. \u2013 Author Unknown"
+    - "It is what you read when you don\u2019t have to that determines what you will
+      be when you can\u2019t help it. \u2013 Oscar Wilde"
+    - "So many books, so little time. \u2013 Frank Zappa"
+    - "Between the pages of a book is a wonderful place to be. \u2013 Author Unknown"
+    - "A book is the only place in which you can examine a fragile thought without
+      breaking it. \u2013 Edward P. Morgan"
+    - "The only important thing in a book is the meaning that it has for you. \u2013
+      W. Somerset Maugham"
+    - "Reading a book is like re-writing it for yourself. \u2013 Angela Carter"
+    - "There\u2019s nothing wrong with reading a book you love over and over. \u2013
+      Gail Carson Levine"
+    - "A great book should leave you with many experiences, and slightly exhausted
+      at the end. You live several lives while reading. \u2013 William Styron"
+    moodValue: 2
 --- !u!1 &144313430
 GameObject:
   m_ObjectHideFlags: 0
@@ -454,6 +538,7 @@ GameObject:
   - component: {fileID: 144313431}
   - component: {fileID: 144313433}
   - component: {fileID: 144313432}
+  - component: {fileID: 144313434}
   m_Layer: 0
   m_Name: cabinet_01
   m_TagString: Untagged
@@ -474,7 +559,7 @@ Transform:
   m_Children:
   - {fileID: 766107171}
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &144313432
 BoxCollider2D:
@@ -552,6 +637,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &144313434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144313430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 0
+  dialogue:
+    name: Sink
+    sentences:
+    - Player washes their hands
+    moodValue: 5
 --- !u!1 &170023993
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,8 +735,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -508327669
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -302515594404919236, guid: e407cb151f73b144a9d52453047a15a7,
     type: 3}
@@ -690,7 +793,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 24
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &179231844
 SpriteRenderer:
@@ -786,7 +889,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2.409648, y: -0.32603168}
+  m_Offset: {x: 2.409648, y: -0.21089587}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -797,227 +900,26 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.167964, y: 0.34321594}
+  m_Size: {x: 4.167964, y: 0.112944305}
   m_EdgeRadius: 0
---- !u!1001 &223653511
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1926925503}
-    m_Modifications:
-    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
-      propertyPath: dialogue.moodValue
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332037, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_Name
-      value: black-kitten1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 10.287796
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.74108803
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3.7617188
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.33333334
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.33333334
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332059, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 1847375817
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332059, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 4
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
---- !u!1 &256867786
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 256867788}
-  - component: {fileID: 256867787}
-  m_Layer: 0
-  m_Name: GameStateManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &256867787
+--- !u!114 &199408269 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 256867786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c4d641fa99744942bd6c8a4cd73fc63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moodScore: 0
-  time: 0
---- !u!4 &256867788
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 256867786}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.649547, y: -2.7197614, z: -11.792126}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &282518956 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4888948303712886993, guid: 19af19c658ee12e4bbaf99af252b04c4,
+  m_CorrespondingSourceObject: {fileID: 5296095774119475721, guid: 5920f2a11fe476546a6ff86fa3b39546,
     type: 3}
-  m_PrefabInstance: {fileID: 2094980057}
+  m_PrefabInstance: {fileID: 5296095774293360772}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4604c7d0ce6f7e34aa25a71f81ca2871, type: 3}
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &286753140
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2902131100039332037, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_Name
-      value: InteractiveCat
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+--- !u!95 &276542966 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5296095774026741106, guid: 5920f2a11fe476546a6ff86fa3b39546,
+    type: 3}
+  m_PrefabInstance: {fileID: 5296095774293360772}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &298403951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,6 +930,8 @@ GameObject:
   m_Component:
   - component: {fileID: 298403952}
   - component: {fileID: 298403953}
+  - component: {fileID: 298403954}
+  - component: {fileID: 298403955}
   m_Layer: 0
   m_Name: Food2
   m_TagString: Untagged
@@ -1047,7 +951,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 1
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &298403953
 SpriteRenderer:
@@ -1099,6 +1003,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &298403954
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298403951}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.23, y: 0.18}
+    newSize: {x: 0.23, y: 0.18}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.23, y: 0.18}
+  m_EdgeRadius: 0
+--- !u!114 &298403955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298403951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 0
+  dialogue:
+    name: 
+    sentences:
+    - Player Eats salad
+    moodValue: 3
 --- !u!1 &343913137
 GameObject:
   m_ObjectHideFlags: 3
@@ -1267,11 +1215,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380917430}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.25, y: 1.0799999, z: 3.7617188}
+  m_LocalPosition: {x: 10.25, y: 1.0799999, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 1926925503}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &380917432
 BoxCollider2D:
@@ -1350,6 +1298,185 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &384632135
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: selectSingleRandomString
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: Cat makes chirp noise
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: rrroooowe
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: 'ROWW '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: 'Mew '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: 'Prrrrrrr '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[8]
+      value: 'Mewp '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[9]
+      value: 'Brrrep '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[10]
+      value: 'Mow '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[11]
+      value: "Purr\u2026."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[12]
+      value: 'Prrrrrrr '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[13]
+      value: "Purr\u2026."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[14]
+      value: 'Prrrrrrr '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[15]
+      value: Groooour
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[16]
+      value: 'Rrrrrrrr '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[17]
+      value: 'Wrrrao '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[18]
+      value: 'Maaorrao '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.sentences.Array.data[19]
+      value: "Purr\u2026."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.moodValue
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332037, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_Name
+      value: black-kitten1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.7617188
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.30015
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.30015
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.30015
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332059, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1847375817
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332059, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902131100039332059, guid: 2e668c2d511216b4394f15c8d1f72a54,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
 --- !u!1 &398706054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,6 +1488,7 @@ GameObject:
   - component: {fileID: 398706056}
   - component: {fileID: 398706055}
   - component: {fileID: 398706057}
+  - component: {fileID: 398706058}
   m_Layer: 0
   m_Name: trash_bin
   m_TagString: Untagged
@@ -1458,6 +1586,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.32}
   m_EdgeRadius: 0
+--- !u!114 &398706058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398706054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: 
+    sentences:
+    - Player recycles Plastic Wrapper
+    - Player recycles Junk Mail
+    - Player recycles Cardboard Box
+    moodValue: 1
 --- !u!1 &406326332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1576,6 +1724,18 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &428444658 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4888948303712886993, guid: 19af19c658ee12e4bbaf99af252b04c4,
+    type: 3}
+  m_PrefabInstance: {fileID: 4888948303334976291}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4604c7d0ce6f7e34aa25a71f81ca2871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &429430947 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4106803078409192507, guid: 76e48a0324d4d7a48ac26137a643be5f,
@@ -1593,6 +1753,7 @@ GameObject:
   - component: {fileID: 434101705}
   - component: {fileID: 434101707}
   - component: {fileID: 434101706}
+  - component: {fileID: 434101708}
   m_Layer: 0
   m_Name: cabinet_03
   m_TagString: Untagged
@@ -1613,7 +1774,7 @@ Transform:
   m_Children:
   - {fileID: 645402747}
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &434101706
 BoxCollider2D:
@@ -1691,6 +1852,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &434101708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434101704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 0
+  dialogue:
+    name: 
+    sentences:
+    - 'Player has glass of Red Wine and Pancakes
+
+'
+    moodValue: 3
 --- !u!1 &450547231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1759,8 +1940,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1077602925
+  m_SortingLayer: 1
   m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -3998,6 +4179,18 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &452820703 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4545488577655162827, guid: 5920f2a11fe476546a6ff86fa3b39546,
+    type: 3}
+  m_PrefabInstance: {fileID: 5296095774293360772}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &477049588
 GameObject:
   m_ObjectHideFlags: 0
@@ -4028,7 +4221,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &477049590
 BoxCollider2D:
@@ -4117,6 +4310,7 @@ GameObject:
   - component: {fileID: 504690388}
   - component: {fileID: 504690387}
   - component: {fileID: 504690389}
+  - component: {fileID: 504690390}
   m_Layer: 0
   m_Name: standing_lamp
   m_TagString: Untagged
@@ -4214,12 +4408,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.32, y: 0.64}
   m_EdgeRadius: 0
---- !u!4 &543375885 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-    type: 3}
-  m_PrefabInstance: {fileID: 223653511}
+--- !u!114 &504690390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504690386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: 
+    sentences:
+    - Player Turns on light.
+    - Player Turns off the light.
+    moodValue: 0
 --- !u!1 &582185711
 GameObject:
   m_ObjectHideFlags: 0
@@ -4397,7 +4604,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -508327669
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 9dbb1beea06b69a428dd0fa9782c3ec0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4419,6 +4626,8 @@ GameObject:
   m_Component:
   - component: {fileID: 673074717}
   - component: {fileID: 673074718}
+  - component: {fileID: 673074720}
+  - component: {fileID: 673074719}
   m_Layer: 0
   m_Name: breakfast_01
   m_TagString: Untagged
@@ -4438,7 +4647,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &673074718
 SpriteRenderer:
@@ -4490,6 +4699,53 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &673074719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673074716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: 
+    sentences:
+    - "Player eats Ham and Eggs for Breakfast\t"
+    - Player eats Egg Omlet for breakfast
+    - Player eats beans on toast for breakfast
+    - Player eats Sausage and eggs
+    moodValue: 2
+--- !u!61 &673074720
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673074716}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0018003955, y: -0.007200405}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.22279449, y: 0.16159123}
+  m_EdgeRadius: 0
 --- !u!1 &766107170
 GameObject:
   m_ObjectHideFlags: 0
@@ -4609,7 +4865,7 @@ Transform:
   m_GameObject: {fileID: 793406222}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 2.4012, y: 2.4012, z: 2.4012}
   m_Children:
   - {fileID: 450547232}
   - {fileID: 1905833038}
@@ -4620,7 +4876,7 @@ Transform:
   - {fileID: 831745578}
   - {fileID: 1255227082}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &809703343
 GameObject:
@@ -4760,18 +5016,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9.320242, y: 0.34321594}
   m_EdgeRadius: 0
---- !u!114 &867834680 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4545488577655162827, guid: 5920f2a11fe476546a6ff86fa3b39546,
-    type: 3}
-  m_PrefabInstance: {fileID: 37478503}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &929915353
 GameObject:
   m_ObjectHideFlags: 0
@@ -4783,6 +5027,7 @@ GameObject:
   - component: {fileID: 929915356}
   - component: {fileID: 929915355}
   - component: {fileID: 929915354}
+  - component: {fileID: 929915357}
   m_Layer: 0
   m_Name: potted_plant
   m_TagString: Untagged
@@ -4880,6 +5125,24 @@ Transform:
   m_Father: {fileID: 1646904059}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &929915357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929915353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 0
+  dialogue:
+    name: Plant
+    sentences:
+    - Player Waters Plant
+    moodValue: 0
 --- !u!1 &1004831126 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 452928816343519218, guid: 911d201438ba82346bb79c4ce4770481,
@@ -4918,6 +5181,59 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.9812658}
   m_EdgeRadius: 0
+--- !u!114 &1004831129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004831126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: Bookcase
+    sentences:
+    - "Books are a uniquely portable magic. \u2013 Stephen King\r\n"
+    - "No two persons ever read the same book. \u2013 Edmund Wilson"
+    - "Whenever you read a good book, somewhere in the world a door opens to allow
+      in more light. \u2013 Vera Nazarian"
+    - "Reading gives us someplace to go when we have to stay where we are. \u2013
+      Mason Cooley"
+    - "Anyone who says they have only one life to live must not know how to read
+      a book. \u2013 Author Unknown"
+    - "There is no friend as loyal as a book. \u2013 Ernest Hemingway"
+    - "You can\u2019t buy happiness, but you can buy books and that\u2019s kind of
+      the same thing. \u2013 Author Unknown"
+    - "If you only read the books that everyone else is reading, you can only think
+      what everyone else is thinking. \u2013 Haruki Murakami"
+    - "A good novel tells us the truth about its hero; but a bad novel tells us the
+      truth about its author. \r\n\u2013 Gilbert K. Chesterton\r\n"
+    - "A book is a dream that you hold in your hand. \u2013 Neil Gaiman"
+    - "Any book that helps a child to form a habit of reading, to make reading one
+      of his deep and continuing needs, is good for him. \u2013 Maya Angelou"
+    - "Great books help you understand, and they help you feel understood. \u2013
+      John Green"
+    - "A book is a version of the world. If you do not like it, ignore it or offer
+      your own version in return. \u2013 Salman Rushdie"
+    - "We lose ourselves in books. We find ourselves there too. \u2013 Author Unknown"
+    - "It is what you read when you don\u2019t have to that determines what you will
+      be when you can\u2019t help it. \u2013 Oscar Wilde"
+    - "So many books, so little time. \u2013 Frank Zappa"
+    - "Between the pages of a book is a wonderful place to be. \u2013 Author Unknown"
+    - "A book is the only place in which you can examine a fragile thought without
+      breaking it. \u2013 Edward P. Morgan"
+    - "The only important thing in a book is the meaning that it has for you. \u2013
+      W. Somerset Maugham"
+    - "Reading a book is like re-writing it for yourself. \u2013 Angela Carter"
+    - "There\u2019s nothing wrong with reading a book you love over and over. \u2013
+      Gail Carson Levine"
+    - "A great book should leave you with many experiences, and slightly exhausted
+      at the end. You live several lives while reading. \u2013 William Styron"
+    moodValue: 2
 --- !u!1 &1024763872
 GameObject:
   m_ObjectHideFlags: 0
@@ -5037,6 +5353,7 @@ GameObject:
   - component: {fileID: 1033784407}
   - component: {fileID: 1033784406}
   - component: {fileID: 1033784405}
+  - component: {fileID: 1033784408}
   m_Layer: 0
   m_Name: potted_plant (1)
   m_TagString: Untagged
@@ -5134,6 +5451,24 @@ Transform:
   m_Father: {fileID: 1646904059}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1033784408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033784404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 0
+  dialogue:
+    name: Plant
+    sentences:
+    - Player Waters Plant
+    moodValue: 0
 --- !u!1 &1081256299
 GameObject:
   m_ObjectHideFlags: 0
@@ -5273,7 +5608,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1095059515
 BoxCollider2D:
@@ -5361,6 +5696,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1106646555}
   - component: {fileID: 1106646554}
+  - component: {fileID: 1106646556}
+  - component: {fileID: 1106646557}
   m_Layer: 0
   m_Name: Toaster
   m_TagString: Untagged
@@ -5430,8 +5767,55 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1106646556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106646553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: 
+    sentences:
+    - 'Player toasts a piece of bread
+
+'
+    - Player toasts a bagel
+    moodValue: 1
+--- !u!61 &1106646557
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106646553}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.22, y: 0.23}
+    newSize: {x: 0.22, y: 0.23}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.22, y: 0.23}
+  m_EdgeRadius: 0
 --- !u!1 &1109753969
 GameObject:
   m_ObjectHideFlags: 0
@@ -5497,7 +5881,7 @@ Transform:
   m_Children:
   - {fileID: 343913138}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1132261549
 GameObject:
@@ -5529,7 +5913,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1132261551
 BoxCollider2D:
@@ -5544,7 +5928,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.09175219}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5555,7 +5939,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.32}
+  m_Size: {x: 0.32, y: 0.13649562}
   m_EdgeRadius: 0
 --- !u!212 &1132261552
 SpriteRenderer:
@@ -5634,8 +6018,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1743943988}
-  - {fileID: 298403952}
   - {fileID: 1402873778}
   - {fileID: 477049589}
   - {fileID: 1311746007}
@@ -5650,31 +6032,21 @@ Transform:
   - {fileID: 1106646555}
   - {fileID: 1565262011}
   - {fileID: 1451216546}
+  - {fileID: 179231843}
+  - {fileID: 1779457992}
   - {fileID: 1564080435}
   - {fileID: 809703345}
   - {fileID: 1024763875}
   - {fileID: 1619841882}
   - {fileID: 1081256300}
   - {fileID: 170023996}
+  - {fileID: 1743943988}
   - {fileID: 1417720745}
   - {fileID: 673074717}
-  - {fileID: 179231843}
-  - {fileID: 1779457992}
+  - {fileID: 298403952}
   m_Father: {fileID: 1646904059}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1175426522 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5296095774119475721, guid: 5920f2a11fe476546a6ff86fa3b39546,
-    type: 3}
-  m_PrefabInstance: {fileID: 37478503}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1205278310
 GameObject:
   m_ObjectHideFlags: 0
@@ -5685,6 +6057,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1205278312}
   - component: {fileID: 1205278311}
+  - component: {fileID: 1205278314}
+  - component: {fileID: 1205278313}
   m_Layer: 0
   m_Name: microwave_open
   m_TagString: Untagged
@@ -5754,8 +6128,63 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1205278313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205278310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: 
+    sentences:
+    - "Player Microwaves Hot Pocket\t"
+    - Player Microwves Brownie in a Mug
+    - Player Microwaves Popcorn
+    - 'Player Microwaves Leftovers '
+    - Player Microwaves TV Dinner
+    - Player Uses Microwave to Make soap Cloud
+    - Player Uses Microwave for Epic Peep Battle
+    - Player Uses Microwave to Make soap Cloud
+    - Player Uses Microwave to Make soap Cloud
+    - Player Uses Microwave and Koolaid to Dye Yarn
+    - Player Uses Microwave for Science Experiments
+    - Player Uses Microwave to measure the speed of light
+    moodValue: 1
+--- !u!61 &1205278314
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205278310}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0017852746}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.1878863}
+  m_EdgeRadius: 0
 --- !u!1 &1255227081
 GameObject:
   m_ObjectHideFlags: 0
@@ -5930,6 +6359,59 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.9812658}
   m_EdgeRadius: 0
+--- !u!114 &1264471593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264471591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: Bookcase
+    sentences:
+    - "Books are a uniquely portable magic. \u2013 Stephen King\r\n"
+    - "No two persons ever read the same book. \u2013 Edmund Wilson"
+    - "Whenever you read a good book, somewhere in the world a door opens to allow
+      in more light. \u2013 Vera Nazarian"
+    - "Reading gives us someplace to go when we have to stay where we are. \u2013
+      Mason Cooley"
+    - "Anyone who says they have only one life to live must not know how to read
+      a book. \u2013 Author Unknown"
+    - "There is no friend as loyal as a book. \u2013 Ernest Hemingway"
+    - "You can\u2019t buy happiness, but you can buy books and that\u2019s kind of
+      the same thing. \u2013 Author Unknown"
+    - "If you only read the books that everyone else is reading, you can only think
+      what everyone else is thinking. \u2013 Haruki Murakami"
+    - "A good novel tells us the truth about its hero; but a bad novel tells us the
+      truth about its author. \r\n\u2013 Gilbert K. Chesterton\r\n"
+    - "A book is a dream that you hold in your hand. \u2013 Neil Gaiman"
+    - "Any book that helps a child to form a habit of reading, to make reading one
+      of his deep and continuing needs, is good for him. \u2013 Maya Angelou"
+    - "Great books help you understand, and they help you feel understood. \u2013
+      John Green"
+    - "A book is a version of the world. If you do not like it, ignore it or offer
+      your own version in return. \u2013 Salman Rushdie"
+    - "We lose ourselves in books. We find ourselves there too. \u2013 Author Unknown"
+    - "It is what you read when you don\u2019t have to that determines what you will
+      be when you can\u2019t help it. \u2013 Oscar Wilde"
+    - "So many books, so little time. \u2013 Frank Zappa"
+    - "Between the pages of a book is a wonderful place to be. \u2013 Author Unknown"
+    - "A book is the only place in which you can examine a fragile thought without
+      breaking it. \u2013 Edward P. Morgan"
+    - "The only important thing in a book is the meaning that it has for you. \u2013
+      W. Somerset Maugham"
+    - "Reading a book is like re-writing it for yourself. \u2013 Angela Carter"
+    - "There\u2019s nothing wrong with reading a book you love over and over. \u2013
+      Gail Carson Levine"
+    - "A great book should leave you with many experiences, and slightly exhausted
+      at the end. You live several lives while reading. \u2013 William Styron"
+    moodValue: 2
 --- !u!1 &1267520321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7381766522969028722, guid: b4bc359f8de5f7241b9a9da166e23184,
@@ -6004,11 +6486,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269350529}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.25, y: -2.92, z: 3.7617188}
+  m_LocalPosition: {x: 10.25, y: -2.92, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 1926925503}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1269350531
 BoxCollider2D:
@@ -6098,6 +6580,7 @@ GameObject:
   - component: {fileID: 1293627862}
   - component: {fileID: 1293627864}
   - component: {fileID: 1293627863}
+  - component: {fileID: 1293627865}
   m_Layer: 0
   m_Name: Trashcan
   m_TagString: Untagged
@@ -6195,6 +6678,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1293627865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293627861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: 
+    sentences:
+    - "Player throws out Plastic Wrapper\t"
+    - Player throws away food scrapes
+    - Player throws away junk mail
+    moodValue: -1
 --- !u!1 &1308807170
 GameObject:
   m_ObjectHideFlags: 0
@@ -6314,6 +6817,7 @@ GameObject:
   - component: {fileID: 1311746007}
   - component: {fileID: 1311746009}
   - component: {fileID: 1311746008}
+  - component: {fileID: 1311746010}
   m_Layer: 0
   m_Name: stove_02
   m_TagString: Untagged
@@ -6333,7 +6837,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1311746008
 BoxCollider2D:
@@ -6348,7 +6852,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.08190486}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6359,7 +6863,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.32}
+  m_Size: {x: 0.32, y: 0.15619028}
   m_EdgeRadius: 0
 --- !u!212 &1311746009
 SpriteRenderer:
@@ -6411,6 +6915,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1311746010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311746006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: Stove
+    sentences:
+    - Player turns on Stove
+    - Player preheats oven
+    moodValue: 0
 --- !u!1 &1402873777
 GameObject:
   m_ObjectHideFlags: 0
@@ -6422,6 +6945,7 @@ GameObject:
   - component: {fileID: 1402873778}
   - component: {fileID: 1402873780}
   - component: {fileID: 1402873779}
+  - component: {fileID: 1402873781}
   m_Layer: 0
   m_Name: fridge
   m_TagString: Untagged
@@ -6441,7 +6965,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1402873779
 BoxCollider2D:
@@ -6456,7 +6980,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.039277084}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6467,7 +6991,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.64}
+  m_Size: {x: 0.32, y: 0.56144583}
   m_EdgeRadius: 0
 --- !u!212 &1402873780
 SpriteRenderer:
@@ -6519,6 +7043,55 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1402873781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402873777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: Refridgerator
+    sentences:
+    - 'Fridge Works
+
+'
+    - 'Player opens fridge and finds Yogurt and Cheese
+
+'
+    - 'Player opens fridge and finds raw chicken
+
+'
+    - 'Player opens fridge and finds raw hamburger
+
+'
+    - 'Player opens fridge and finds Juice
+
+'
+    - 'Player opens fridge and finds Apple Slices
+
+'
+    - 'Player opens fridge and finds lettuce
+
+'
+    - "Player opens fridge and finds cherry \ntomatoes\r\n"
+    - 'Player opens fridge and finds butter
+
+
+'
+    - 'Player opens fridge and finds eggs
+
+'
+    - 'Player opens fridge and finds bottle of Red Wine
+
+'
+    moodValue: 1
 --- !u!1 &1417720744
 GameObject:
   m_ObjectHideFlags: 0
@@ -6529,6 +7102,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1417720745}
   - component: {fileID: 1417720746}
+  - component: {fileID: 1417720747}
+  - component: {fileID: 1417720748}
   m_Layer: 0
   m_Name: pizza_02
   m_TagString: Untagged
@@ -6548,7 +7123,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1417720746
 SpriteRenderer:
@@ -6600,6 +7175,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1417720747
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417720744}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0018000156, y: 0.0054002367}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.23719531, y: 0.1507903}
+  m_EdgeRadius: 0
+--- !u!114 &1417720748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417720744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: 
+    sentences:
+    - Player has a slice of Pepperoni Pizza
+    - "Player has a slice of Chicken Pesto Pizza\r"
+    - "Player has a slice of Deep-Dish Sausage Pizza\r"
+    - 'Player has a slice of Buffalo Chicken Pizza
+
+'
+    - 'Player has a slice of Buffalo Chicken Pizza
+
+'
+    - 'Player has a slice of Buffalo Chicken Pizza
+
+'
+    moodValue: 3
 --- !u!1 &1451216544
 GameObject:
   m_ObjectHideFlags: 0
@@ -6679,14 +7309,8 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1513678986 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 5296095774026741106, guid: 5920f2a11fe476546a6ff86fa3b39546,
-    type: 3}
-  m_PrefabInstance: {fileID: 37478503}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1536730638
 GameObject:
   m_ObjectHideFlags: 0
@@ -6697,8 +7321,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1536730640}
   - component: {fileID: 1536730639}
+  - component: {fileID: 1536730641}
+  - component: {fileID: 1536730642}
   m_Layer: 0
-  m_Name: 16X16_17
+  m_Name: Rugs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6762,13 +7388,67 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1536730638}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.54, y: -5.96, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.70584655, y: -5.285816, z: 3.7617188}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 1646904059}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1536730641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536730638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: Exercise
+    sentences:
+    - Player does Yoga Sun Salutation
+    - Player does Restorative Yoga
+    - Player does Calisthenics
+    - Player does Jumping Jacks
+    - Player does TikTok Dance Challenge
+    - Player does TikTok Dance Challenge
+    - Player does Tai Chi
+    - Player Streches
+    - Player lifts Cat and Canned Food
+    - Player plays Dance Dance Revolution
+    - Player does push ups
+    moodValue: 5
+--- !u!61 &1536730642
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536730638}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9, y: 3}
+    newSize: {x: 9, y: 3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9, y: 3}
+  m_EdgeRadius: 0
 --- !u!1 &1537092552
 GameObject:
   m_ObjectHideFlags: 0
@@ -6781,7 +7461,7 @@ GameObject:
   - component: {fileID: 1537092554}
   - component: {fileID: 1537092553}
   m_Layer: 0
-  m_Name: 16X16_9 (1)
+  m_Name: Side Tables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6871,12 +7551,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1537092552}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7337255, y: -1.6704905, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.8995721, y: -0.99630654, z: 3.7617188}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 1646904059}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1564080433
 GameObject:
@@ -7038,8 +7718,46 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &1602414617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4106803079823446939, guid: 76e48a0324d4d7a48ac26137a643be5f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4106803077998648472}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1602414621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602414617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: 
+    sentences:
+    - Player plays Minecraft with friends
+    - Player plays Fortnite with friends
+    - Player plays Tabletop Simulator with friends
+    - Player plays video game with friends
+    - Player checks Facebook
+    - Player donates to charity
+    - Player watches Cat Videos
+    - Player watches YouTube
+    - Player checks twitter
+    - Player has video call with family
+    - Player has video call with coworkers
+    - Email from Family about News Headline
+    - Player has video call with family
+    - Player has video call with doctor
+    - Player checks Reddit
+    moodValue: -5
 --- !u!1 &1612554596
 GameObject:
   m_ObjectHideFlags: 0
@@ -7051,6 +7769,7 @@ GameObject:
   - component: {fileID: 1612554597}
   - component: {fileID: 1612554599}
   - component: {fileID: 1612554598}
+  - component: {fileID: 1612554600}
   m_Layer: 0
   m_Name: cabinet_04 (2)
   m_TagString: Untagged
@@ -7070,7 +7789,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1612554598
 BoxCollider2D:
@@ -7148,6 +7867,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1612554600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612554596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 0
+  dialogue:
+    name: CuttingBoard
+    sentences:
+    - Player Dices Potato
+    moodValue: -1
 --- !u!1 &1619841881
 GameObject:
   m_ObjectHideFlags: 0
@@ -7309,7 +8046,7 @@ Transform:
   m_GameObject: {fileID: 1646904058}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.16584656, y: -0.67418396, z: -3.7617188}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2006, y: 1.2006, z: 1.2006}
   m_Children:
   - {fileID: 1264471590}
   - {fileID: 1004831127}
@@ -7327,78 +8064,12 @@ Transform:
   - {fileID: 1293627862}
   - {fileID: 1152669437}
   - {fileID: 1926925503}
+  - {fileID: 1536730640}
+  - {fileID: 2071430896}
+  - {fileID: 1537092555}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1668682023
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 53085718220866069, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
-        type: 3}
-      propertyPath: m_Name
-      value: EventSystem
-      objectReference: {fileID: 0}
-    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5632fc0fc4d0bb04b8d8d02354af61a4, type: 3}
 --- !u!1 &1724117611
 GameObject:
   m_ObjectHideFlags: 0
@@ -7536,7 +8207,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 0
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1743943989
 SpriteRenderer:
@@ -7617,7 +8288,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 25
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1779457993
 SpriteRenderer:
@@ -7859,97 +8530,12 @@ Transform:
   m_LocalPosition: {x: 2.63, y: -0.19, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children:
-  - {fileID: 543375885}
   - {fileID: 380917431}
   - {fileID: 58492462}
   - {fileID: 1269350530}
   m_Father: {fileID: 1646904059}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1969260457
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
-      propertyPath: dialogue.moodValue
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332037, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_Name
-      value: EvilCat
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.76
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332056, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332058, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2902131100039332059, guid: 2e668c2d511216b4394f15c8d1f72a54,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 0a32c9642d42b0d42867e5203feff5ca,
-        type: 3}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
 --- !u!1 &1997049786
 GameObject:
   m_ObjectHideFlags: 0
@@ -7980,7 +8566,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1997049788
 BoxCollider2D:
@@ -8240,7 +8826,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2038500903
 GameObject:
@@ -8252,6 +8838,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2038500905}
   - component: {fileID: 2038500904}
+  - component: {fileID: 2038500907}
+  - component: {fileID: 2038500906}
   m_Layer: 0
   m_Name: Pot
   m_TagString: Untagged
@@ -8321,8 +8909,59 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2038500906
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038500903}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.41, y: 0.4}
+    newSize: {x: 0.41, y: 0.4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.41, y: 0.4}
+  m_EdgeRadius: 0
+--- !u!114 &2038500907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038500903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: 
+    sentences:
+    - "Player Boils Water for Instant Mashed Potatoes\t"
+    - "Player makes Beef Stew\t"
+    - Player makes Chili
+    - Player makes Risotto
+    - "Player makes Vegetable Soup\t"
+    - Player makes Spagetti
+    - Player makes Lentils
+    - Player makes Chicken Soup
+    moodValue: 1
 --- !u!1 &2052715870
 GameObject:
   m_ObjectHideFlags: 0
@@ -8392,7 +9031,7 @@ GameObject:
   - component: {fileID: 2071430895}
   - component: {fileID: 2071430894}
   m_Layer: 0
-  m_Name: 16X16_9
+  m_Name: Side Tables
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8482,102 +9121,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071430893}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.812933, y: -1.6238701, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.6470864, y: -0.94968617, z: 3.7617188}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 1646904059}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2094980057
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.092566
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.0279688
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -10.302273
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4888948303712886993, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: dialogueText
-      value: 
-      objectReference: {fileID: 1175426522}
-    - target: {fileID: 4888948303712886993, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1513678986}
-    - target: {fileID: 4888948303712886993, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: dialogueTextWhite
-      value: 
-      objectReference: {fileID: 867834680}
-    - target: {fileID: 4888948303712886993, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: dialogueTextBlack
-      value: 
-      objectReference: {fileID: 1175426522}
-    - target: {fileID: 4888948303712886994, guid: 19af19c658ee12e4bbaf99af252b04c4,
-        type: 3}
-      propertyPath: m_Name
-      value: DialogueManager
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 19af19c658ee12e4bbaf99af252b04c4, type: 3}
 --- !u!1001 &2106258695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8695,6 +9245,59 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.9812658}
   m_EdgeRadius: 0
+--- !u!114 &2106258699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106258697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: Bookcase
+    sentences:
+    - "Books are a uniquely portable magic. \u2013 Stephen King\r\n"
+    - "No two persons ever read the same book. \u2013 Edmund Wilson"
+    - "Whenever you read a good book, somewhere in the world a door opens to allow
+      in more light. \u2013 Vera Nazarian"
+    - "Reading gives us someplace to go when we have to stay where we are. \u2013
+      Mason Cooley"
+    - "Anyone who says they have only one life to live must not know how to read
+      a book. \u2013 Author Unknown"
+    - "There is no friend as loyal as a book. \u2013 Ernest Hemingway"
+    - "You can\u2019t buy happiness, but you can buy books and that\u2019s kind of
+      the same thing. \u2013 Author Unknown"
+    - "If you only read the books that everyone else is reading, you can only think
+      what everyone else is thinking. \u2013 Haruki Murakami"
+    - "A good novel tells us the truth about its hero; but a bad novel tells us the
+      truth about its author. \r\n\u2013 Gilbert K. Chesterton\r\n"
+    - "A book is a dream that you hold in your hand. \u2013 Neil Gaiman"
+    - "Any book that helps a child to form a habit of reading, to make reading one
+      of his deep and continuing needs, is good for him. \u2013 Maya Angelou"
+    - "Great books help you understand, and they help you feel understood. \u2013
+      John Green"
+    - "A book is a version of the world. If you do not like it, ignore it or offer
+      your own version in return. \u2013 Salman Rushdie"
+    - "We lose ourselves in books. We find ourselves there too. \u2013 Author Unknown"
+    - "It is what you read when you don\u2019t have to that determines what you will
+      be when you can\u2019t help it. \u2013 Oscar Wilde"
+    - "So many books, so little time. \u2013 Frank Zappa"
+    - "Between the pages of a book is a wonderful place to be. \u2013 Author Unknown"
+    - "A book is the only place in which you can examine a fragile thought without
+      breaking it. \u2013 Edward P. Morgan"
+    - "The only important thing in a book is the meaning that it has for you. \u2013
+      W. Somerset Maugham"
+    - "Reading a book is like re-writing it for yourself. \u2013 Angela Carter"
+    - "There\u2019s nothing wrong with reading a book you love over and over. \u2013
+      Gail Carson Levine"
+    - "A great book should leave you with many experiences, and slightly exhausted
+      at the end. You live several lives while reading. \u2013 William Styron"
+    moodValue: 2
 --- !u!1001 &52252056210171665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8774,6 +9377,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed99a69c0535ce943868ec43f2e62837, type: 3}
+--- !u!1001 &53085718132582048
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 53085718220866069, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
+        type: 3}
+      propertyPath: m_Name
+      value: EventSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 53085718220866072, guid: 5632fc0fc4d0bb04b8d8d02354af61a4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5632fc0fc4d0bb04b8d8d02354af61a4, type: 3}
 --- !u!1001 &4106803077998648472
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8843,6 +9515,234 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76e48a0324d4d7a48ac26137a643be5f, type: 3}
+--- !u!1001 &4888948303334976291
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.092566
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0279688
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.302273
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888948303712886992, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4888948303712886993, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 199408269}
+    - target: {fileID: 4888948303712886993, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 276542966}
+    - target: {fileID: 4888948303712886993, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: dialogueTextWhite
+      value: 
+      objectReference: {fileID: 199408269}
+    - target: {fileID: 4888948303712886993, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: dialogueTextBlack
+      value: 
+      objectReference: {fileID: 452820703}
+    - target: {fileID: 4888948303712886994, guid: 19af19c658ee12e4bbaf99af252b04c4,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 19af19c658ee12e4bbaf99af252b04c4, type: 3}
+--- !u!1001 &5296095774293360772
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3588329329791082558, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4094761187143518606, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_Name
+      value: Text White
+      objectReference: {fileID: 0}
+    - target: {fileID: 4545488577655162827, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_Text
+      value: Click on Item to Interact
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095772323564213, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_Name
+      value: Dialogue
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.0926
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.302273
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095772323564214, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095773668482981, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095774026741110, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095774026741111, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 428444658}
+    - target: {fileID: 5296095774119475720, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095774119475720, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -216.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095774119475720, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095774119475721, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_Text
+      value: Click on Item to Interact
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095774119475721, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095774119475721, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095774119475721, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095774119475727, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_Name
+      value: Text Black
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5920f2a11fe476546a6ff86fa3b39546, type: 3}
 --- !u!1001 &6452191085009555727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8967,7 +9867,7 @@ PrefabInstance:
     - target: {fileID: 7381766522969028720, guid: b4bc359f8de5f7241b9a9da166e23184,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7381766522969028720, guid: b4bc359f8de5f7241b9a9da166e23184,
         type: 3}
@@ -8983,6 +9883,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7381766522969028720, guid: b4bc359f8de5f7241b9a9da166e23184,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7381766522969028720, guid: b4bc359f8de5f7241b9a9da166e23184,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7381766522969028720, guid: b4bc359f8de5f7241b9a9da166e23184,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2006
       objectReference: {fileID: 0}
     - target: {fileID: 7381766522969028722, guid: b4bc359f8de5f7241b9a9da166e23184,
         type: 3}

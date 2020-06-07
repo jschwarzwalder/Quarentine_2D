@@ -356,6 +356,7 @@ MonoBehaviour:
     - News Headline - Black Teen shot and killed while jogging in neighboorhood
     - News Headline - Penguins visit local aquarium with handlers
     - News Headline - Endangered Pandas start to mate when zoo is closed to the public.
+    moodValue: -10
 --- !u!1001 &92821212
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -525,6 +526,7 @@ MonoBehaviour:
       Gail Carson Levine"
     - "A great book should leave you with many experiences, and slightly exhausted
       at the end. You live several lives while reading. \u2013 William Styron"
+    moodValue: 2
 --- !u!1 &144313430
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,7 +559,7 @@ Transform:
   m_Children:
   - {fileID: 766107171}
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &144313432
 BoxCollider2D:
@@ -652,6 +654,7 @@ MonoBehaviour:
     name: Sink
     sentences:
     - Player washes their hands
+    moodValue: 5
 --- !u!1 &170023993
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,8 +735,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -508327669
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -302515594404919236, guid: e407cb151f73b144a9d52453047a15a7,
     type: 3}
@@ -790,7 +793,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 24
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &179231844
 SpriteRenderer:
@@ -927,8 +930,8 @@ GameObject:
   m_Component:
   - component: {fileID: 298403952}
   - component: {fileID: 298403953}
-  - component: {fileID: 298403955}
   - component: {fileID: 298403954}
+  - component: {fileID: 298403955}
   m_Layer: 0
   m_Name: Food2
   m_TagString: Untagged
@@ -948,7 +951,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 1
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &298403953
 SpriteRenderer:
@@ -1043,6 +1046,7 @@ MonoBehaviour:
     name: 
     sentences:
     - Player Eats salad
+    moodValue: 3
 --- !u!1 &343913137
 GameObject:
   m_ObjectHideFlags: 3
@@ -1377,6 +1381,10 @@ PrefabInstance:
       propertyPath: dialogue.sentences.Array.data[19]
       value: "Purr\u2026."
       objectReference: {fileID: 0}
+    - target: {fileID: 1515631162, guid: 2e668c2d511216b4394f15c8d1f72a54, type: 3}
+      propertyPath: dialogue.moodValue
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2902131100039332037, guid: 2e668c2d511216b4394f15c8d1f72a54,
         type: 3}
       propertyPath: m_Name
@@ -1597,6 +1605,7 @@ MonoBehaviour:
     - Player recycles Plastic Wrapper
     - Player recycles Junk Mail
     - Player recycles Cardboard Box
+    moodValue: 1
 --- !u!1 &406326332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1765,7 +1774,7 @@ Transform:
   m_Children:
   - {fileID: 645402747}
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &434101706
 BoxCollider2D:
@@ -1862,6 +1871,7 @@ MonoBehaviour:
     - 'Player has glass of Red Wine and Pancakes
 
 '
+    moodValue: 3
 --- !u!1 &450547231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1930,8 +1940,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1077602925
+  m_SortingLayer: 1
   m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -4169,6 +4179,18 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &452820703 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4545488577655162827, guid: 5920f2a11fe476546a6ff86fa3b39546,
+    type: 3}
+  m_PrefabInstance: {fileID: 5296095774293360772}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &477049588
 GameObject:
   m_ObjectHideFlags: 0
@@ -4199,7 +4221,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &477049590
 BoxCollider2D:
@@ -4398,12 +4420,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectSingleRandomString: 0
+  selectSingleRandomString: 1
   dialogue:
     name: 
     sentences:
     - Player Turns on light.
     - Player Turns off the light.
+    moodValue: 0
 --- !u!1 &582185711
 GameObject:
   m_ObjectHideFlags: 0
@@ -4624,7 +4647,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &673074718
 SpriteRenderer:
@@ -4696,6 +4719,7 @@ MonoBehaviour:
     - Player eats Egg Omlet for breakfast
     - Player eats beans on toast for breakfast
     - Player eats Sausage and eggs
+    moodValue: 2
 --- !u!61 &673074720
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5118,12 +5142,7 @@ MonoBehaviour:
     name: Plant
     sentences:
     - Player Waters Plant
---- !u!224 &979611880 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5296095773668482981, guid: 5920f2a11fe476546a6ff86fa3b39546,
-    type: 3}
-  m_PrefabInstance: {fileID: 5296095774293360772}
-  m_PrefabAsset: {fileID: 0}
+    moodValue: 0
 --- !u!1 &1004831126 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 452928816343519218, guid: 911d201438ba82346bb79c4ce4770481,
@@ -5214,6 +5233,7 @@ MonoBehaviour:
       Gail Carson Levine"
     - "A great book should leave you with many experiences, and slightly exhausted
       at the end. You live several lives while reading. \u2013 William Styron"
+    moodValue: 2
 --- !u!1 &1024763872
 GameObject:
   m_ObjectHideFlags: 0
@@ -5448,6 +5468,7 @@ MonoBehaviour:
     name: Plant
     sentences:
     - Player Waters Plant
+    moodValue: 0
 --- !u!1 &1081256299
 GameObject:
   m_ObjectHideFlags: 0
@@ -5587,7 +5608,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1095059515
 BoxCollider2D:
@@ -5746,7 +5767,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1106646556
 MonoBehaviour:
@@ -5768,6 +5789,7 @@ MonoBehaviour:
 
 '
     - Player toasts a bagel
+    moodValue: 1
 --- !u!61 &1106646557
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5891,7 +5913,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1132261551
 BoxCollider2D:
@@ -5906,7 +5928,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.09175219}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5917,7 +5939,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.32}
+  m_Size: {x: 0.32, y: 0.13649562}
   m_EdgeRadius: 0
 --- !u!212 &1132261552
 SpriteRenderer:
@@ -5996,8 +6018,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1743943988}
-  - {fileID: 298403952}
   - {fileID: 1402873778}
   - {fileID: 477049589}
   - {fileID: 1311746007}
@@ -6012,16 +6032,18 @@ Transform:
   - {fileID: 1106646555}
   - {fileID: 1565262011}
   - {fileID: 1451216546}
+  - {fileID: 179231843}
+  - {fileID: 1779457992}
   - {fileID: 1564080435}
   - {fileID: 809703345}
   - {fileID: 1024763875}
   - {fileID: 1619841882}
   - {fileID: 1081256300}
   - {fileID: 170023996}
+  - {fileID: 1743943988}
   - {fileID: 1417720745}
   - {fileID: 673074717}
-  - {fileID: 179231843}
-  - {fileID: 1779457992}
+  - {fileID: 298403952}
   m_Father: {fileID: 1646904059}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6035,6 +6057,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1205278312}
   - component: {fileID: 1205278311}
+  - component: {fileID: 1205278314}
+  - component: {fileID: 1205278313}
   m_Layer: 0
   m_Name: microwave_open
   m_TagString: Untagged
@@ -6104,8 +6128,63 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1205278313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205278310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectSingleRandomString: 1
+  dialogue:
+    name: 
+    sentences:
+    - "Player Microwaves Hot Pocket\t"
+    - Player Microwves Brownie in a Mug
+    - Player Microwaves Popcorn
+    - 'Player Microwaves Leftovers '
+    - Player Microwaves TV Dinner
+    - Player Uses Microwave to Make soap Cloud
+    - Player Uses Microwave for Epic Peep Battle
+    - Player Uses Microwave to Make soap Cloud
+    - Player Uses Microwave to Make soap Cloud
+    - Player Uses Microwave and Koolaid to Dye Yarn
+    - Player Uses Microwave for Science Experiments
+    - Player Uses Microwave to measure the speed of light
+    moodValue: 1
+--- !u!61 &1205278314
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205278310}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0017852746}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.1878863}
+  m_EdgeRadius: 0
 --- !u!1 &1255227081
 GameObject:
   m_ObjectHideFlags: 0
@@ -6332,6 +6411,7 @@ MonoBehaviour:
       Gail Carson Levine"
     - "A great book should leave you with many experiences, and slightly exhausted
       at the end. You live several lives while reading. \u2013 William Styron"
+    moodValue: 2
 --- !u!1 &1267520321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7381766522969028722, guid: b4bc359f8de5f7241b9a9da166e23184,
@@ -6617,6 +6697,7 @@ MonoBehaviour:
     - "Player throws out Plastic Wrapper\t"
     - Player throws away food scrapes
     - Player throws away junk mail
+    moodValue: -1
 --- !u!1 &1308807170
 GameObject:
   m_ObjectHideFlags: 0
@@ -6756,7 +6837,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1311746008
 BoxCollider2D:
@@ -6852,6 +6933,7 @@ MonoBehaviour:
     sentences:
     - Player turns on Stove
     - Player preheats oven
+    moodValue: 0
 --- !u!1 &1402873777
 GameObject:
   m_ObjectHideFlags: 0
@@ -6883,7 +6965,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1402873779
 BoxCollider2D:
@@ -6898,7 +6980,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.039277084}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6909,7 +6991,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.32, y: 0.64}
+  m_Size: {x: 0.32, y: 0.56144583}
   m_EdgeRadius: 0
 --- !u!212 &1402873780
 SpriteRenderer:
@@ -7009,6 +7091,7 @@ MonoBehaviour:
     - 'Player opens fridge and finds bottle of Red Wine
 
 '
+    moodValue: 1
 --- !u!1 &1417720744
 GameObject:
   m_ObjectHideFlags: 0
@@ -7019,8 +7102,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1417720745}
   - component: {fileID: 1417720746}
-  - component: {fileID: 1417720748}
   - component: {fileID: 1417720747}
+  - component: {fileID: 1417720748}
   m_Layer: 0
   m_Name: pizza_02
   m_TagString: Untagged
@@ -7040,7 +7123,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1417720746
 SpriteRenderer:
@@ -7146,6 +7229,7 @@ MonoBehaviour:
     - 'Player has a slice of Buffalo Chicken Pizza
 
 '
+    moodValue: 3
 --- !u!1 &1451216544
 GameObject:
   m_ObjectHideFlags: 0
@@ -7225,7 +7309,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1536730638
 GameObject:
@@ -7338,6 +7422,7 @@ MonoBehaviour:
     - Player lifts Cat and Canned Food
     - Player plays Dance Dance Revolution
     - Player does push ups
+    moodValue: 5
 --- !u!61 &1536730642
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7633,7 +7718,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1602414617 stripped
 GameObject:
@@ -7672,6 +7757,7 @@ MonoBehaviour:
     - Player has video call with family
     - Player has video call with doctor
     - Player checks Reddit
+    moodValue: -5
 --- !u!1 &1612554596
 GameObject:
   m_ObjectHideFlags: 0
@@ -7703,7 +7789,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1612554598
 BoxCollider2D:
@@ -7798,6 +7884,7 @@ MonoBehaviour:
     name: CuttingBoard
     sentences:
     - Player Dices Potato
+    moodValue: -1
 --- !u!1 &1619841881
 GameObject:
   m_ObjectHideFlags: 0
@@ -8120,7 +8207,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 0
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1743943989
 SpriteRenderer:
@@ -8172,84 +8259,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1767309559
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1767309560}
-  - component: {fileID: 1767309562}
-  - component: {fileID: 1767309561}
-  m_Layer: 5
-  m_Name: Text (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1767309560
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767309559}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.87678754, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 979611880}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.3, y: -213.7}
-  m_SizeDelta: {x: 800, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1767309561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767309559}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.9716981, g: 0.9487807, b: 0.9487807, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 1
-    m_LineSpacing: 1
-  m_Text: Default Text
---- !u!222 &1767309562
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767309559}
-  m_CullTransparentMesh: 0
 --- !u!1 &1779457991
 GameObject:
   m_ObjectHideFlags: 0
@@ -8279,7 +8288,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 25
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1779457993
 SpriteRenderer:
@@ -8557,7 +8566,7 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1997049788
 BoxCollider2D:
@@ -8900,7 +8909,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1152669437}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2038500906
 BoxCollider2D:
@@ -8952,6 +8961,7 @@ MonoBehaviour:
     - Player makes Spagetti
     - Player makes Lentils
     - Player makes Chicken Soup
+    moodValue: 1
 --- !u!1 &2052715870
 GameObject:
   m_ObjectHideFlags: 0
@@ -9287,6 +9297,7 @@ MonoBehaviour:
       Gail Carson Levine"
     - "A great book should leave you with many experiences, and slightly exhausted
       at the end. You live several lives while reading. \u2013 William Styron"
+    moodValue: 2
 --- !u!1001 &52252056210171665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9585,7 +9596,7 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueTextBlack
       value: 
-      objectReference: {fileID: 1767309561}
+      objectReference: {fileID: 452820703}
     - target: {fileID: 4888948303712886994, guid: 19af19c658ee12e4bbaf99af252b04c4,
         type: 3}
       propertyPath: m_Name
@@ -9603,7 +9614,17 @@ PrefabInstance:
     - target: {fileID: 3588329329791082558, guid: 5920f2a11fe476546a6ff86fa3b39546,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4094761187143518606, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_Name
+      value: Text White
+      objectReference: {fileID: 0}
+    - target: {fileID: 4545488577655162827, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_Text
+      value: Click on Item to Interact
       objectReference: {fileID: 0}
     - target: {fileID: 5296095772323564213, guid: 5920f2a11fe476546a6ff86fa3b39546,
         type: 3}
@@ -9685,10 +9706,20 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5296095774119475720, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -216.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095774119475720, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
     - target: {fileID: 5296095774119475721, guid: 5920f2a11fe476546a6ff86fa3b39546,
         type: 3}
       propertyPath: m_Text
-      value: Default Text
+      value: Click on Item to Interact
       objectReference: {fileID: 0}
     - target: {fileID: 5296095774119475721, guid: 5920f2a11fe476546a6ff86fa3b39546,
         type: 3}
@@ -9704,6 +9735,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296095774119475727, guid: 5920f2a11fe476546a6ff86fa3b39546,
+        type: 3}
+      propertyPath: m_Name
+      value: Text Black
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5920f2a11fe476546a6ff86fa3b39546, type: 3}
