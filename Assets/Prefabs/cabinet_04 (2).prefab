@@ -367,11 +367,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7161dec9bc482e148bc8ff024b513a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectSingleRandomString: 0
+  selectSingleRandomString: 1
   maxInteractionsPerDay: 9
   dialogue:
     name: CuttingBoard
-    moodValue: -1
+    moodValue: -3
     sentences:
     - You dice a potato
     - You dice a tomato

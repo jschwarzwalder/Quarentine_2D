@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class GameStateManager : MonoBehaviour
 {
@@ -25,7 +26,7 @@ public class GameStateManager : MonoBehaviour
     [SerializeField] private static int STARTING_SCORE = 50;
     [SerializeField] private static int UPPER_MOOD_THRESHOLD = 100;
     [SerializeField] private static int LOWER_MOOD_THRESHOLD = 0;
-    [SerializeField] private static int AUDIO_VOLUME = 75;
+    [SerializeField] private static float AUDIO_VOLUME = .75f;
 
     [SerializeField] private static int STARTING_DAY = 1;
     [SerializeField] private static int STARTING_TIME = 8; // 8 am Military time
@@ -57,7 +58,7 @@ public class GameStateManager : MonoBehaviour
         pauseMenuUI.SetActive(false);
         audioSource.clip = neutralMusic;
         audioSource.volume = AUDIO_VOLUME;
-
+        audioSource.Play();
     }
 
     public void incrementMood(int moodValue)
@@ -89,12 +90,22 @@ public class GameStateManager : MonoBehaviour
             endGame(PossibleEndStates.Lose);
             audioSource.volume = audioSource.volume / 50;
         }
-        else if(moodScore < 50) 
+        else if (moodScore < 50)
         {
-            audioSource.clip = lowMoodMusic;
-        } else
+            if (audioSource.clip == neutralMusic)
+            {
+                audioSource.clip = lowMoodMusic;
+                audioSource.Play();
+            }
+        }
+        else
         {
-            audioSource.clip =neutralMusic;
+            if (audioSource.clip == lowMoodMusic)
+            {
+                audioSource.clip = neutralMusic;
+                audioSource.Play();
+                
+            }
         }
 
     }
@@ -209,6 +220,8 @@ public class GameStateManager : MonoBehaviour
         Debug.Log("Score updated to: " + moodScore);
         restartSentences[2] = "Score reset to " + moodScore + ".";
         gameIsActive = true;
+        displayDay();
+        displayTime();
 
 
         restartGameDialogue.sentences = restartSentences;
@@ -218,6 +231,7 @@ public class GameStateManager : MonoBehaviour
 
         audioSource.clip = neutralMusic;
         audioSource.volume = AUDIO_VOLUME;
+        audioSource.Play(0);
     }
 
     public bool isGameActive()
