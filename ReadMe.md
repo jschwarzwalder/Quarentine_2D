@@ -2,6 +2,10 @@ This is a 2D game created with Unity 2019.3.14f during a Weekend Game Jam.
 
 Theme: Quarantine
 
+Game Title: Bad News, Good Kitty
+
+Playable at [Itch.io](https://saoigames.itch.io/bad-news-good-kitty)
+
 Developers:
 * Jami Schwarzwalder
 * Paula Thomas
